@@ -1,0 +1,93 @@
+<root>
+
+<o type="msgbox" id="default">
+
+	<p name="font" value="gui_lr" type="font" />
+	<p name="frame" value="frx2" type="frame" />
+
+	<p name="btnbg" value="skin_bg" type="image"/>
+
+	<p name="textok" value="ok" type="text"/>
+	<p name="textcancel" value="cancel" type="text"/>
+	<p name="textyes" value="yes" type="text"/>
+	<p name="textno" value="no" type="text"/>
+	<p name="textapply" value="apply" type="text"/>
+	<p name="textabort" value="abort" type="text"/>
+	<p name="textretry" value="retry" type="text"/>
+	<p name="textignore" value="ignore" type="text"/>
+	<p name="texthelp" value="hlp" type="text"/>
+
+	<p name="iconerr" value="error" type="image"/>
+	<p name="iconwarn" value="warn" type="image"/>
+	<p name="iconinfo" value="info" type="image"/>
+	<p name="iconquest" value="quest" type="image"/>
+
+	<p name="iconok" value="ok" type="image"/>
+	<p name="iconcancel" value="cancel" type="image"/>
+	<p name="iconyes" value="yes" type="image"/>
+	<p name="iconno" value="no" type="image"/>
+	<p name="iconapply" value="apply" type="image"/>
+	<p name="iconhelp" value="help" type="image"/>
+</o>
+
+<o type="msgbox" id="register">
+
+	<p name="font" value="gui_lr" type="font" />
+	<p name="frame" value="frx2" type="frame" />
+
+	<p name="btnbg" value="skin_bg" type="image"/>
+
+	<p name="textok" value="register" type="text"/>
+	<p name="textcancel" value="cancel" type="text"/>
+	<p name="textyes" value="yes" type="text"/>
+	<p name="textno" value="no" type="text"/>
+	<p name="textapply" value="apply" type="text"/>
+	<p name="textabort" value="abort" type="text"/>
+	<p name="textretry" value="retry" type="text"/>
+	<p name="textignore" value="ignore" type="text"/>
+	<p name="texthelp" value="hlp" type="text"/>
+
+	<p name="iconerr" value="error" type="image"/>
+	<p name="iconwarn" value="warn" type="image"/>
+	<p name="iconinfo" value="info" type="image"/>
+	<p name="iconquest" value="quest" type="image"/>
+
+	<p name="iconok" value="ok" type="image"/>
+	<p name="iconcancel" value="cancel" type="image"/>
+	<p name="iconyes" value="yes" type="image"/>
+	<p name="iconno" value="no" type="image"/>
+	<p name="iconapply" value="apply" type="image"/>
+	<p name="iconhelp" value="help" type="image"/>
+</o>
+
+<o type="msgbox" id="about">
+
+	<p name="font" value="gui_lr" type="font" />
+	<p name="frame" value="frx2" type="frame" />
+
+	<p name="btnbg" value="skin_bg" type="image"/>
+
+	<p name="textok" value="ok" type="text"/>
+	<p name="textcancel" value="cancel" type="text"/>
+	<p name="textyes" value="yes" type="text"/>
+	<p name="textno" value="no" type="text"/>
+	<p name="textapply" value="apply" type="text"/>
+	<p name="textabort" value="abort" type="text"/>
+	<p name="textretry" value="retry" type="text"/>
+	<p name="textignore" value="ignore" type="text"/>
+	<p name="texthelp" value="hlp" type="text"/>
+
+	<p name="iconerr" value="error" type="image"/>
+	<p name="iconwarn" value="warn" type="image"/>
+	<p name="iconinfo" value="vlogo" type="image"/>
+	<p name="iconquest" value="quest" type="image"/>
+
+	<p name="iconok" value="ok" type="image"/>
+	<p name="iconcancel" value="cancel" type="image"/>
+	<p name="iconyes" value="yes" type="image"/>
+	<p name="iconno" value="no" type="image"/>
+	<p name="iconapply" value="apply" type="image"/>
+	<p name="iconhelp" value="help" type="image"/>
+</o>
+
+</root>

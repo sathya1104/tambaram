@@ -1,0 +1,234 @@
+<root>
+
+<o type="input" id="input1">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="1" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="input" id="input2">
+	<p name="style" value="3" type="n"/>
+	<p name="gripper" value="1" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="input" id="input_afont">
+	<p name="style" value="3" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="input" id="input_afontsize">
+	<p name="style" value="3" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="input" id="input_ifont">
+	<p name="style" value="3" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_ifontsize">
+	<p name="style" value="3" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="input" id="input_lang">
+	<p name="style" value="3" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="input" id="input_newdict">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_dictlang1">
+	<p name="style" value="2" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_dictlang2">
+	<p name="style" value="2" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_dictauthor">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="input" id="input_act_sn">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_lmid">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="input" id="input_act_login">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_pass">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_birth">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="input" id="input_act_lastname">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_firstname">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_midname">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_country">
+	<p name="style" value="3" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_city">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_address">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_mail">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_phone">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_newlogin">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_newpass">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+
+<o type="input" id="input_act_company">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_inn">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_kpp">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_bank_name">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_bank_loc">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_corr">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_bik">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_ru_account">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="input" id="input_act_foreign_account">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+
+<o type="input" id="act_code_input">
+	<p name="style" value="0" type="n"/>
+	<p name="gripper" value="0" type="n"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+</root>

@@ -1,0 +1,30 @@
+<root>
+
+<o type="fontset" id="tb">
+	<p name="h" value="gui_lr" type="font" />
+	<p name="hu" value="gui_lr_u" type="font" />
+	<p name="v" value="gui_tb" type="font" />
+	<p name="vu" value="gui_tb_u" type="font" />
+</o>
+
+<o type="fontset" id="tb_cyr">
+	<p name="h" value="cyr_lr" type="font" />
+	<p name="hu" value="cyr_lr_u" type="font" />
+	<p name="v" value="cyr_tb" type="font" />
+	<p name="vu" value="cyr_tb_u" type="font" />
+</o>
+
+<o type="fontset" id="tb_phn">
+	<p name="h" value="phn_lr" type="font" />
+	<p name="hu" value="phn_lr_u" type="font" />
+	<p name="v" value="phn_tb" type="font" />
+	<p name="vu" value="phn_tb_u" type="font" />
+</o>
+
+<o type="fontset" id="tb_sym">
+	<p name="h" value="symbol_lr" type="font" />
+	<p name="hu" value="symbol_lr_u" type="font" />
+	<p name="v" value="symbol_tb" type="font" />
+	<p name="vu" value="symbol_tb_u" type="font" />
+</o>
+</root>

@@ -1,0 +1,347 @@
+<root>
+
+<o type="button" id="set_ok">
+	<p name="cmdid" value="set_ok" type="s"/>
+	<p name="caption" value="ok" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="button" id="set_apply">
+	<p name="cmdid" value="set_apply" type="s"/>
+	<p name="caption" value="apply" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="button" id="set_cancel">
+	<p name="cmdid" value="set_cancel" type="s"/>
+	<p name="caption" value="cancel" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="button" id="set_reset">
+	<p name="cmdid" value="set_reset" type="s"/>
+	<p name="caption" value="reset" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="button" id="set_dictup">
+	<p name="cmdid" value="set_dictup" type="s"/>
+	<p name="caption" value="up" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="button" id="set_dictdown">
+	<p name="cmdid" value="set_dictdown" type="s"/>
+	<p name="caption" value="down" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="button" id="set_dictabout">
+	<p name="cmdid" value="set_dictabout" type="s"/>
+	<p name="caption" value="about_dict" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="button" id="set_dictdel">
+	<p name="cmdid" value="set_dictdel" type="s"/>
+	<p name="caption" value="remove" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="button" id="set_dictnew">
+	<p name="cmdid" value="set_dictnew" type="s"/>
+	<p name="caption" value="new_dict" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="button" id="set_dictimp">
+	<p name="cmdid" value="set_dictimp" type="s"/>
+	<p name="caption" value="import" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="button" id="set_dictexp">
+	<p name="cmdid" value="set_dictexp" type="s"/>
+	<p name="caption" value="export" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="button" id="set_dictcreate">
+	<p name="cmdid" value="set_dictcreate" type="s"/>
+	<p name="caption" value="create" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="button" id="set_dictcancel">
+	<p name="cmdid" value="set_dictcancel" type="s"/>
+	<p name="caption" value="cancel" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="button" id="set_dictok">
+	<p name="cmdid" value="set_dictok" type="s"/>
+	<p name="caption" value="ok" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="button" id="set_sort_hist_tm">
+	<p name="cmdid" value="set_sort_hist_tm" type="s"/>
+	<p name="caption" value="sort_tm" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="radio_unchecked" type="image"/>
+	<p name="downpicture" value="radio_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+    
+</o>
+
+<o type="button" id="set_sort_hist_al">
+	<p name="cmdid" value="set_sort_hist_al" type="s"/>
+	<p name="caption" value="sort_al" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="radio_unchecked" type="image"/>
+	<p name="downpicture" value="radio_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+    
+</o>
+
+<o type="button" id="set_sort_bmk_tm">
+	<p name="cmdid" value="set_sort_bmk_tm" type="s"/>
+	<p name="caption" value="sort_tm" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="radio_unchecked" type="image"/>
+	<p name="downpicture" value="radio_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="button" id="set_sort_bmk_al">
+	<p name="cmdid" value="set_sort_bmk_al" type="s"/>
+	<p name="caption" value="sort_al" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="radio_unchecked" type="image"/>
+	<p name="downpicture" value="radio_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="button" id="set_showtray">
+	<p name="cmdid" value="set_showtray" type="s"/>
+	<p name="caption" value="show_in_tray" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="check_unchecked" type="image"/>
+	<p name="downpicture" value="check_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+    
+</o>
+
+<o type="button" id="set_mintray">
+	<p name="cmdid" value="set_mintray" type="s"/>
+	<p name="caption" value="min_to_tray" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="check_unchecked" type="image"/>
+	<p name="downpicture" value="check_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="button" id="set_usemlinker">
+	<p name="cmdid" value="set_usemlinker" type="s"/>
+	<p name="caption" value="set_usemlinker" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="check_unchecked" type="image"/>
+	<p name="downpicture" value="check_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="button" id="set_autorun">
+	<p name="cmdid" value="set_autorun" type="s"/>
+	<p name="caption" value="set_autorun" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="check_unchecked" type="image"/>
+	<p name="downpicture" value="check_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="button" id="act_register">
+	<p name="cmdid" value="act_register" type="s"/>
+	<p name="caption" value="register" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+	<p name="picture" value="ok" type="image"/>
+	<p name="picplace" value="2" type="n"/>
+</o>
+<o type="button" id="act_reg_cancel">
+	<p name="cmdid" value="act_reg_cancel" type="s"/>
+	<p name="caption" value="cancel" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+	<p name="picture" value="cancel" type="image"/>
+	<p name="picplace" value="2" type="n"/>
+</o>
+
+<o type="button" id="act_register2">
+	<p name="cmdid" value="act_register2" type="s"/>
+	<p name="caption" value="register" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+	<p name="picture" value="ok" type="image"/>
+	<p name="picplace" value="2" type="n"/>
+</o>
+<o type="button" id="act_reg2_cancel">
+	<p name="cmdid" value="act_reg2_cancel" type="s"/>
+	<p name="caption" value="cancel" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+	<p name="picture" value="cancel" type="image"/>
+	<p name="picplace" value="2" type="n"/>
+</o>
+
+<o type="button" id="act_type_inet">
+	<p name="cmdid" value="act_type_inet" type="s"/>
+	<p name="caption" value="overInet" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="radio_unchecked" type="image"/>
+	<p name="downpicture" value="radio_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+    
+</o>
+<o type="button" id="act_type_email">
+	<p name="cmdid" value="act_type_email" type="s"/>
+	<p name="caption" value="byEmail" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="radio_unchecked" type="image"/>
+	<p name="downpicture" value="radio_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+    
+</o>
+<o type="button" id="act_type_fax">
+	<p name="cmdid" value="act_type_fax" type="s"/>
+	<p name="caption" value="byFax" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="radio_unchecked" type="image"/>
+	<p name="downpicture" value="radio_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+    
+</o>
+<o type="button" id="act_type_phone">
+	<p name="cmdid" value="act_type_phone" type="s"/>
+	<p name="caption" value="byPhone" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="radio_unchecked" type="image"/>
+	<p name="downpicture" value="radio_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+    
+</o>
+<o type="button" id="act_type_jur">
+	<p name="cmdid" value="act_type_jur" type="s"/>
+	<p name="caption" value="regJur" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="radio_unchecked" type="image"/>
+	<p name="downpicture" value="radio_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+    
+</o>
+<o type="button" id="act_subscribe">
+	<p name="cmdid" value="act_subscribe" type="s"/>
+	<p name="caption" value="act_subscribe" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="check_unchecked" type="image"/>
+	<p name="downpicture" value="check_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+    
+</o>
+
+<o type="button" id="act_type_phys">
+	<p name="cmdid" value="act_type_phys" type="s"/>
+	<p name="caption" value="regPhys" type="text"/>
+	<p name="style" value="1" type="n"/>
+	<p name="edge" value="0" type="n"/>
+	<p name="picplace" value="2" type="n"/>
+	<p name="picture" value="radio_unchecked" type="image"/>
+	<p name="downpicture" value="radio_checked" type="image"/>
+	<p name="align" value="1" type="image"/>
+	<p name="bgcolor" value="16578288" type="n"/>
+	<p name="font" value="gui_lr" type="font" />
+    
+</o>
+
+
+<o type="button" id="act_code_ok">
+	<p name="cmdid" value="act_code_ok" type="s"/>
+	<p name="caption" value="ok" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+	<p name="picture" value="ok" type="image"/>
+	<p name="picplace" value="2" type="n"/>
+</o>
+<o type="button" id="act_code_get">
+	<p name="cmdid" value="act_code_get" type="s"/>
+	<p name="caption" value="register" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="button" id="act_code_cancel">
+	<p name="cmdid" value="act_code_cancel" type="s"/>
+	<p name="caption" value="cancel" type="text"/>
+	<p name="background" value="skin_bg" type="image"/>
+	<p name="font" value="gui_lr" type="font" />
+	<p name="picture" value="cancel" type="image"/>
+	<p name="picplace" value="2" type="n"/>
+</o>
+
+</root>

@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root>
+	<o type="text" id="application">
+		<p name="text" value="Oxford Dictionary"/>
+	</o>
+	<o type="text" id="buy_url">
+		<p name="text" value="http://mswindows-dictionaries.penreader.com/buy.html"/>
+	</o>
+	<o type="text" id="support_phone">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="support_mail">
+		<p name="text" value="support.penreader.com"/>
+	</o>
+	<o type="text" id="save">
+		<p name="text" value="Save"/>
+	</o>
+	<o type="text" id="about_info">
+		<p name="text" value="
+Oxford&#x00AE; electronic dictionary
+Version: 6.4
+
+Copyright&#x00A9; 1996-2007 Paragon Software Group&#x00AE;. All rights reserved
+
+
+
+This product is licensed to: 
+Name: %
+Company: %
+License number: %
+
+Warning: This program is protected under copyright law and international treaties. Unauthorized reproduction or distribution of this program or any portion of it, may result in severe civil and crime penalties.
+"/>
+	</o>
+	<o type="text" id="about_info_HTML">
+		<p name="text" value="
+&lt;body style=&quot;font-family: Tahoma; font-size: 8pt;&quot;&gt;
+Oxford&#x00AE; electronic dictionary&lt;br&gt;
+Version: 6.4&lt;br&gt;&lt;br&gt;
+
+Copyright&#x00A9; 1996-2007 Paragon Software Group&#x00AE;.&lt;br&gt;
+All rights reserved&lt;br&gt;&lt;br&gt;
+
+
+
+This product is licensed to:&lt;br&gt;
+Name: %&lt;br&gt;
+Company: %&lt;br&gt;&lt;br&gt;
+
+Installed Products: &lt;pre&gt;%&lt;/pre&gt;
+&lt;br&gt;&lt;br&gt;
+Warning: This program is protected under copyright law and international treaties. Unauthorized reproduction or distribution of this program or any portion of it, may result in severe civil and crime penalties.
+&lt;body&gt;
+"/>
+	</o>
+	<o type="text" id="about_info_text">
+		<p name="text" value="
+
+Oxford&#x00AE; electronic dictionary
+Version: 6.4
+
+Copyright&#x00A9; 1996-2007 Paragon Software Group&#x00AE;.
+All rights reserved
+
+
+
+This product is licensed to:
+Name: %
+Company: %
+
+Installed Products:
+%
+Warning: This program is protected under copyright law and international treaties. Unauthorized reproduction or distribution of this program or any portion of it, may result in severe civil and crime penalties.
+
+"/>
+	</o>
+	<o type="text" id="already_registered">
+		<p name="text" value="This product is already registered"/>
+	</o>
+	<o type="text" id="not_registered">
+		<p name="text" value="Not Registered"/>
+	</o>
+	<o type="text" id="word_count">
+		<p name="text" value="% words"/>
+	</o>
+
+	<o type="text" id="speech_not_registered">
+		<p name="text" value="This is an unregistered copy of the Sound Module! Register now?"/>
+	</o>
+	<o type="text" id="duplicatedDicName">
+		<p name="text" value="There’s dictionary with the same name. Please choose another dictionary name."/>
+	</o>
+	<o type="text" id="createDictFailed">
+		<p name="text" value="Dictionary can not be created! Symbols &lt; &gt; : / \ ? * are unsupported"/>
+	</o>
+	<o type="text" id="cantStartSearch">
+		<p name="text" value="Search failed. No active dictionaries"/>
+	</o>
+	<o type="text" id="fillForm">
+		<p name="text" value="Please, fill all required fields"/>
+	</o>
+	<o type="text" id="sel_user_dict">
+		<p name="text" value="Please, choose user’s dictionary"/>
+	</o>
+	<o type="text" id="sel_dict">
+		<p name="text" value="Choose dictionary"/>
+	</o>
+	<o type="text" id="noDictHelp">
+		<p name="text" value="There’s no available information in Oxford Dictionary reference book about  &quot;%&quot;"/>
+	</o>
+	<o type="text" id="noAbbrHelp">
+		<p name="text" value="There’s no available information in Oxford Dictionary reference book about &quot;%&quot; abbreviations"/>
+	</o>
+	<o type="text" id="noTranscriptHelp">
+		<p name="text" value="There’s no available information in Oxford Dictionary reference book about &quot;%&quot; transcription"/>
+	</o>
+	<o type="text" id="noIrregHelp">
+		<p name="text" value="There’s no available information in Oxford Dictionary reference book about &quot;%&quot; irregular terms"/>
+	</o>
+	<o type="text" id="noContextHelp">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="act_code_desc">
+		<p name="text" value="Enter the registration code and press &quot;OK&quot;. Press &quot;Buy&quot; to order the registration code"/>
+	</o>
+	<o type="text" id="reg_alert"> <!--новый кусок про регистрацию-->
+		<p name="text" value="The more you use an unregistered copy of the program the more often you get a registration reminding message. %Register% it now?"/>
+        </o>
+ 	<o type="text" id="dictUnavailable2">
+		<p name="text" value="&quot;%&quot; dictionary in folder % is unavailable. Please close all applications using these files to continue"/>
+	</o>
+	<o type="text" id="newDictFound">
+		<p name="text" value="You have installed  % dictionary. Do you want to use its dictionaries in %?"/>
+	</o>
+	<o type="text" id="importComplete">
+		<p name="text" value="Dictionary is successfully imported!"/>
+	</o>
+	<o type="text" id="exportComplete">
+		<p name="text" value="Dictionary is successfully exported!"/>
+	</o>
+	<o type="text" id="examples">
+		<p name="text" value="Use Cases"/>
+	</o>
+	<o type="text" id="notfound">
+		<p name="text" value="Word &quot;%&quot; can not be found in the %!"/>
+	</o>
+	<o type="text" id="notfound2">
+		<p name="text" value="% direction: word &quot;%&quot; can not be found!"/>
+	</o>
+	<o type="text" id="articles_found">
+		<p name="text" value="Found % terms and % phrases"/>
+	</o>
+	<o type="text" id="no_user_dict">
+		<p name="text" value="&quot;%&quot; collection has no user's dictionary. Create?"/>
+	</o>
+	<o type="text" id="no_user_dict2">
+		<p name="text" value="% has no user's dictionaty. Create?"/>
+	</o>
+	<o type="text" id="prompt_close_editor">
+		<p name="text" value="Do you want to save changes in  &quot;%&quot;?"/>
+	</o>
+	<o type="text" id="register">
+		<p name="text" value="Buy"/>
+	</o>
+	<o type="text" id="overInet">
+		<p name="text" value="by Internet (recommended)"/>
+	</o>
+	<o type="text" id="byEmail">
+		<p name="text" value="by E-mail"/>
+	</o>
+	<o type="text" id="byFax">
+		<p name="text" value="by mail or fax"/>
+	</o>
+	<o type="text" id="byPhone">
+		<p name="text" value="by phone"/>
+	</o>
+	<o type="text" id="regJur">
+		<p name="text" value="Company"/>
+	</o>
+	<o type="text" id="regPhys">
+		<p name="text" value="Person"/>
+	</o>
+	<o type="text" id="smTagLookup">
+		<p name="text" value="Translate"/>
+	</o>
+	<o type="text" id="smTagSearch">
+		<p name="text" value="Find in dictionary"/>
+	</o>
+	<o type="text" id="smTagSpeech">
+		<p name="text" value="Pronounce"/>
+	</o>
+	<o type="text" id="smTagParadigm">
+		<p name="text" value="Word forms"/>
+	</o>
+	<o type="text" id="edit_head">
+		<p name="text" value="Header"/>
+	</o>
+	<o type="text" id="edit_trans">
+		<p name="text" value="Translation"/>
+	</o>
+	<o type="text" id="edit_phon">
+		<p name="text" value="Transcription"/>
+	</o>
+	<o type="text" id="edit_examp">
+		<p name="text" value="Use Case"/>
+	</o>
+	<o type="text" id="edit_stress">
+		<p name="text" value="Stress mark"/>
+	</o>
+	<o type="text" id="searching">
+		<p name="text" value="Searching.."/>
+	</o>
+	<o type="text" id="searching_info">
+		<p name="text" value="Full-text dictionary search. Please wait..."/>
+	</o>
+	<o type="text" id="iface_font">
+		<p name="text" value="Interface font:"/>
+	</o>
+	<o type="text" id="art_font">
+		<p name="text" value="Entry font:"/>
+	</o>
+	<o type="text" id="iface_lang">
+		<p name="text" value="Interface language:"/>
+	</o>
+	<o type="text" id="dict_tree">
+		<p name="text" value="Dictionaries:"/>
+	</o>
+	<o type="text" id="newDicCaption">
+		<p name="text" value="Create new dictionary"/>
+	</o>
+	<o type="text" id="dictName">
+		<p name="text" value="Dictionary name:"/>
+	</o>
+	<o type="text" id="dictLang1">
+		<p name="text" value="Entry language:"/>
+	</o>
+	<o type="text" id="dictLang2">
+		<p name="text" value="Translation language:"/>
+	</o>
+	<o type="text" id="dictAuthor">
+		<p name="text" value="The author:"/>
+	</o>
+	<o type="text" id="indexing">
+		<p name="text" value="Indexing..."/>
+	</o>
+	<o type="text" id="indexing_info">
+		<p name="text" value="Indexing. Please wait..."/>
+	</o>
+	<o type="text" id="importing">
+		<p name="text" value="Importing dictionary..."/>
+	</o>
+	<o type="text" id="importing_info">
+		<p name="text" value="Copying terms into user’s dictionary. Please wait..."/>
+	</o>
+	<o type="text" id="exporting">
+		<p name="text" value="Exporting dictionary..."/>
+	</o>
+	<o type="text" id="exporting_info">
+		<p name="text" value="Saving dictionary in html-format. Please wait..."/>
+	</o>
+	<o type="text" id="register_progress">
+		<p name="text" value="Registering..."/>
+	</o>
+	<o type="text" id="register_progress_info">
+		<p name="text" value="Internet registration. Please wait..."/>
+	</o>
+	<o type="text" id="isNotUserDict">
+		<p name="text" value="Wrong format! Only MultiLex 3.0/4.0 user’s dictionaries are supported"/>
+	</o>
+	<o type="text" id="ok">
+		<p name="text" value="OK"/>
+	</o>
+	<o type="text" id="cancel">
+		<p name="text" value="Cancel"/>
+	</o>
+	<o type="text" id="reset">
+		<p name="text" value="Reset"/>
+	</o>
+	<o type="text" id="apply">
+		<p name="text" value="Apply"/>
+	</o>
+	<o type="text" id="ignore">
+		<p name="text" value="Ignore"/>
+	</o>
+	<o type="text" id="abort">
+		<p name="text" value="Abort"/>
+	</o>
+	<o type="text" id="retry">
+		<p name="text" value="Retry"/>
+	</o>
+	<o type="text" id="hlp">
+		<p name="text" value="Help"/>
+	</o>
+	<o type="text" id="yes">
+		<p name="text" value="Yes"/>
+	</o>
+	<o type="text" id="no">
+		<p name="text" value="No"/>
+	</o>
+	<o type="text" id="up">
+		<p name="text" value="Up"/>
+	</o>
+	<o type="text" id="down">
+		<p name="text" value="Down"/>
+	</o>
+	<o type="text" id="about_dict">
+		<p name="text" value="About the dictionary..."/>
+	</o>
+	<o type="text" id="del_dict">
+		<p name="text" value="Delete Dictionary"/>
+	</o>
+	<o type="text" id="remove">
+		<p name="text" value="Delete..."/>
+	</o>
+	<o type="text" id="sure_dict_del">
+		<p name="text" value="You are about to delete this dictionary. Are you sure?"/>
+	</o>
+	<o type="text" id="sure_art_del">
+		<p name="text" value="You are about to delete this entry. Are you sure?"/>
+	</o>
+	<o type="text" id="new_dict">
+		<p name="text" value="Create..."/>
+	</o>
+	<o type="text" id="create_dict">
+		<p name="text" value="Create Dictionary"/>
+	</o>
+	<o type="text" id="create">
+		<p name="text" value="Create"/>
+	</o>
+	<o type="text" id="sortHistory">
+		<p name="text" value="History sorting mode:"/>
+	</o>
+	<o type="text" id="sortBookmarks">
+		<p name="text" value="Bookmarks sorting mode:"/>
+	</o>
+	<o type="text" id="sort_tm">
+		<p name="text" value="by creation time"/>
+	</o>
+	<o type="text" id="sort_al">
+		<p name="text" value="alphabetically"/>
+	</o>
+	<o type="text" id="show_in_tray">
+		<p name="text" value="Show Oxford Dictionary icon in system tray"/>
+	</o>
+	<o type="text" id="min_to_tray">
+		<p name="text" value="Minimize to the system tray"/>
+	</o>
+	<o type="text" id="set_autorun">
+		<p name="text" value="Launch on Windows startup"/>
+	</o>
+	<o type="text" id="main_menu">
+		<p name="text" value="Main Menu"/>
+	</o>
+	<o type="text" id="standard">
+		<p name="text" value="Standard"/>
+	</o>
+	<o type="text" id="navigation">
+		<p name="text" value="Navigation"/>
+	</o>
+	<o type="text" id="service">
+		<p name="text" value="Service"/>
+	</o>
+	<o type="text" id="formatting">
+		<p name="text" value="Formatting"/>
+	</o>
+	<o type="text" id="toolbar_dicts">
+		<p name="text" value="Book Shelf"/>
+	</o>
+	<o type="text" id="toolbarcyr">
+		<p name="text" value="Russian Alphabet"/>
+	</o>
+	<o type="text" id="toolbarlat">
+		<p name="text" value="Diacritical Signs"/>
+	</o>
+	<o type="text" id="toolbarphon">
+		<p name="text" value="Transcription Signs"/>
+	</o>
+	<o type="text" id="toolbarsym">
+		<p name="text" value="Abbreviations"/>
+	</o>
+	<o type="text" id="contentsPopup">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="historyPopup">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="searchPopup">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="bookmarksPopup">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="artViewPopup">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="inputPopup">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="idioms_tip">
+		<p name="text" value="Idioms"/>
+	</o>
+	<o type="text" id="term_tip">
+		<p name="text" value="Main term"/>
+	</o>
+	<o type="text" id="approx_tip">
+		<p name="text" value="Loose Translation"/>
+	</o>
+	<o type="text" id="equal_tip">
+		<p name="text" value="Terms Identity"/>
+	</o>
+	<o type="text" id="irregular_tip">
+		<p name="text" value="Irregular Terms"/>
+	</o>
+	<o type="text" id="set_general">
+		<p name="text" value="General"/>
+	</o>
+	<o type="text" id="set_interface">
+		<p name="text" value="Interface"/>
+	</o>
+	<o type="text" id="set_dictionaries">
+		<p name="text" value="Dictionaries"/>
+	</o>
+	<o type="text" id="set_hotkeys">
+		<p name="text" value="Search Keys"/>
+	</o>
+	<o type="text" id="set_other">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="file">
+		<p name="text" value=" &amp;File "/>
+	</o>
+	<o type="text" id="edit">
+		<p name="text" value=" &amp;Edit "/>
+	</o>
+	<o type="text" id="view">
+		<p name="text" value=" &amp;View "/>
+	</o>
+	<o type="text" id="tools">
+		<p name="text" value=" &amp;Tools "/>
+	</o>
+	<o type="text" id="help">
+		<p name="text" value=" &amp;Help "/>
+	</o>
+	<o type="text" id="open">
+		<p name="text" value="&amp;Open"/>
+	</o>
+	<o type="text" id="close">
+		<p name="text" value="&amp;Close"/>
+	</o>
+	<o type="text" id="close_all">
+		<p name="text" value="&amp;Close All"/>
+	</o>
+	<o type="text" id="undock">
+		<p name="text" value="&amp;Maximize"/>
+	</o>
+	<o type="text" id="import">
+		<p name="text" value="Import..."/>
+	</o>
+	<o type="text" id="export">
+		<p name="text" value="Export..."/>
+	</o>
+	<o type="text" id="import_dic">
+		<p name="text" value="Import Dictionary"/>
+	</o>
+	<o type="text" id="export_dic">
+		<p name="text" value="Export Dictionary"/>
+	</o>
+	<o type="text" id="print">
+		<p name="text" value="&amp;Print.."/>
+	</o>
+	<o type="text" id="run">
+		<p name="text" value="&amp;Open Oxford Dictionary"/>
+	</o>
+	<o type="text" id="exit">
+		<p name="text" value="&amp;Exit"/>
+	</o>
+	<o type="text" id="copy">
+		<p name="text" value="&amp;Copy"/>
+	</o>
+	<o type="text" id="cut">
+		<p name="text" value="&amp;Cut"/>
+	</o>
+	<o type="text" id="paste">
+		<p name="text" value="&amp;Paste"/>
+	</o>
+	<o type="text" id="selectall">
+		<p name="text" value="&amp;Select All"/>
+	</o>
+	<o type="text" id="go_back">
+		<p name="text" value="Back"/>
+	</o>
+	<o type="text" id="go_fwd">
+		<p name="text" value="Forward"/>
+	</o>
+	<o type="text" id="go_first">
+		<p name="text" value="First"/>
+	</o>
+	<o type="text" id="go_last">
+		<p name="text" value="Last"/>
+	</o>
+	<o type="text" id="go_next">
+		<p name="text" value="Next"/>
+	</o>
+	<o type="text" id="go_prev">
+		<p name="text" value="Previous"/>
+	</o>
+	<o type="text" id="go_pgup">
+		<p name="text" value="PageUp"/>
+	</o>
+	<o type="text" id="go_pgdn">
+		<p name="text" value="PageDown"/>
+	</o>
+	<o type="text" id="switch_mode">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="standart_mode">
+		<p name="text" value="Advanced Mode"/>
+	</o>
+	<o type="text" id="small_mode">
+		<p name="text" value="Basic Mode"/>
+	</o>
+	<o type="text" id="toolbars">
+		<p name="text" value="&amp;Toolbars"/>
+	</o>
+	<o type="text" id="topmost">
+		<p name="text" value="Always on Top"/>
+	</o>
+	<o type="text" id="dictcoll">
+		<p name="text" value="Translation Direction"/>
+	</o>
+	<o type="text" id="dicts">
+		<p name="text" value="&amp;Active Dictionaries"/>
+	</o>
+	<o type="text" id="swaplang">
+		<p name="text" value="Invert Translation Direction"/>
+	</o>
+	<o type="text" id="exitAgent">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="search">
+		<p name="text" value="Search"/>
+	</o>
+	<o type="text" id="searchAlpha">
+		<p name="text" value="Alphabetic Search"/>
+	</o>
+	<o type="text" id="searchQuick">
+		<p name="text" value="Popup Translation"/>
+	</o>
+	<o type="text" id="searchHK">
+		<p name="text" value="Search:"/>
+	</o>
+	<o type="text" id="searchAlphaHK">
+		<p name="text" value="Full-text search:"/>
+	</o>
+	<o type="text" id="searchQuickHK">
+		<p name="text" value="Popup translation:"/>
+	</o>
+	<o type="text" id="searchMouseHK">
+		<p name="text" value="Mouse"/>
+	</o>
+	<o type="text" id="searchKbdHK">
+		<p name="text" value="Keyboard"/>
+	</o>
+	<o type="text" id="searchMore">
+		<p name="text" value="Search More..."/>
+	</o>
+	<o type="text" id="paradigm">
+		<p name="text" value="Show word forms"/>
+	</o>
+	<o type="text" id="paradigm_for">
+		<p name="text" value="Word forms"/>
+	</o>
+	<o type="text" id="comment_for">
+		<p name="text" value="Comments for"/>
+	</o>
+	<o type="text" id="speech">
+		<p name="text" value="Pronounce"/>
+	</o>
+	<o type="text" id="settings">
+		<p name="text" value="Oxford Dictionary Options"/>
+	</o>
+	<o type="text" id="setup_dic">
+		<p name="text" value="Dictionaries..."/>
+	</o>
+	<o type="text" id="insBookmark">
+		<p name="text" value="Insert Bookmark"/>
+	</o>
+	<o type="text" id="delBookmark">
+		<p name="text" value="Delete Bookmark"/>
+	</o>
+	<o type="text" id="delHistory">
+		<p name="text" value="Remove from History"/>
+	</o>
+	<o type="text" id="delArticle">
+		<p name="text" value="Delete Entry"/>
+	</o>
+	<o type="text" id="addArticle">
+		<p name="text" value="Create Entry"/>
+	</o>
+	<o type="text" id="editArticle">
+		<p name="text" value="Edit Entry"/>
+	</o>
+	<o type="text" id="saveArticle">
+		<p name="text" value="Save Entry"/>
+	</o>
+	<o type="text" id="showExamples">
+		<p name="text" value="Show Use Cases"/>
+	</o>
+	<o type="text" id="showTranscript">
+		<p name="text" value="Show Transcription"/>
+	</o>
+	<o type="text" id="showStress">
+		<p name="text" value="Show Stress Marks"/>
+	</o>
+	<o type="text" id="showHL">
+		<p name="text" value="Highlight Query"/>
+	</o>
+	<o type="text" id="showExamplesTip">
+		<p name="text" value="Show/Hide Use Cases"/>
+	</o>
+	<o type="text" id="showTranscriptTip">
+		<p name="text" value="Show/Hide Transcription"/>
+	</o>
+	<o type="text" id="showStressTip">
+		<p name="text" value="Show/Hide Stress Marks"/>
+	</o>
+	<o type="text" id="showHLTip">
+		<p name="text" value="Show/Hide Highlighting"/>
+	</o>
+	<o type="text" id="art_font_up">
+		<p name="text" value="Increase Font Size"/>
+	</o>
+	<o type="text" id="art_font_down">
+		<p name="text" value="Decrease Font Size"/>
+	</o>
+	<o type="text" id="showContents">
+		<p name="text" value="Contents"/>
+	</o>
+	<o type="text" id="showResults">
+		<p name="text" value="Search Results"/>
+	</o>
+	<o type="text" id="showHistory">
+		<p name="text" value="History"/>
+	</o>
+	<o type="text" id="showBookmarks">
+		<p name="text" value="Bookmarks"/>
+	</o>
+	<o type="text" id="showComments">
+		<p name="text" value="Comments"/>
+	</o>
+	<o type="text" id="showStatus">
+		<p name="text" value="Status Line"/>
+	</o>
+	<o type="text" id="showInput">
+		<p name="text" value="Input Line"/>
+	</o>
+	<o type="text" id="popupWindow">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="editorWindow">
+		<p name="text" value="Entry Editor"/>
+	</o>
+	<o type="text" id="help_contents">
+		<p name="text" value="Help"/>
+	</o>
+	<o type="text" id="help_support">
+		<p name="text" value="Technical Support"/>
+	</o>
+	<o type="text" id="help_register">
+		<p name="text" value="Register..."/>
+	</o>
+	<o type="text" id="help_activate">
+		<p name="text" value="Registration..."/>
+	</o>
+        <o type="text" id="actSucceeded">
+		<p name="text" value="The registration was successfully completed..."/>
+	</o>
+        <o type="text" id="actInvalidCode">
+		<p name="text" value="Entered registration code is incorrect!"/>
+	</o>
+	<o type="text" id="help_abbr">
+		<p name="text" value="Abbreviations"/>
+	</o>
+	<o type="text" id="help_irregular">
+		<p name="text" value="Irregular Terms"/>
+	</o>
+	<o type="text" id="help_transcript">
+		<p name="text" value="Phonetic Transcription"/>
+	</o>
+	<o type="text" id="help_dict">
+		<p name="text" value="About the Dictionary..."/>
+	</o>
+	<o type="text" id="help_about">
+		<p name="text" value="About Oxford Dictionary"/>
+	</o>
+	<o type="text" id="dictSelectAll">
+		<p name="text" value="Select All Dictionaries"/>
+	</o>
+	<o type="text" id="dictUnselectAll">
+		<p name="text" value="Unselect All Dictionaries"/>
+	</o>
+	<o type="text" id="w_about">
+		<p name="text" value="About Oxford Dictionary"/>
+	</o>
+	<o type="text" id="w_contents">
+		<p name="text" value="Contents"/>
+	</o>
+	<o type="text" id="w_results">
+		<p name="text" value="Search Results"/>
+	</o>
+	<o type="text" id="w_history">
+		<p name="text" value="History"/>
+	</o>
+	<o type="text" id="w_bookmarks">
+		<p name="text" value="Bookmarks"/>
+	</o>
+	<o type="text" id="w_comments">
+		<p name="text" value="Comments"/>
+	</o>
+	<o type="text" id="w_input">
+		<p name="text" value="Input Line"/>
+	</o>
+	<o type="text" id="w_status">
+		<p name="text" value="Status Line"/>
+	</o>
+	<o type="text" id="w_settings">
+		<p name="text" value="Oxford Dictionary Options"/>
+	</o>
+	<o type="text" id="act_window">
+		<p name="text" value="Registration"/>
+	</o>
+	<o type="text" id="act_type_window">
+		<p name="text" value="Registration Type"/>
+	</o>
+	<o type="text" id="act_code_window">
+		<p name="text" value="Enter the Registration Code"/>
+	</o>
+	<o type="text" id="english">
+		<p name="text" value="English"/>
+	</o>
+	<o type="text" id="german">
+		<p name="text" value="Deutsch"/>
+	</o>
+	<o type="text" id="french">
+		<p name="text" value="Fran&#x00e7;ais"/>
+	</o>
+	<o type="text" id="italian">
+		<p name="text" value="Italiano"/>
+	</o>
+        <o type="text" id="portuguese">
+		<p name="text" value="Portuguese"/>
+	</o>
+	<o type="text" id="spanish">
+		<p name="text" value="Espa&#x00f1;ol"/>
+	</o>
+	<o type="text" id="russian">
+		<p name="text" value="Русский"/>
+	</o>
+	<o type="text" id="EN">
+		<p name="text" value="English"/>
+	</o>
+	<o type="text" id="DE">
+		<p name="text" value="German"/>
+	</o>
+	<o type="text" id="FR">
+		<p name="text" value="French"/>
+	</o>
+	<o type="text" id="IT">
+		<p name="text" value="Italian"/>
+	</o>
+	<o type="text" id="SP">
+		<p name="text" value="Spanish"/>
+	</o>
+	<o type="text" id="RU">
+		<p name="text" value="Russian"/>
+    </o>
+        <o type="text" id="PT">
+               <p name="text" value="Portuguese"/>
+	</o>
+	<o type="text" id="EN-">
+		<p name="text" value="English"/>
+	</o>
+	<o type="text" id="DE-">
+		<p name="text" value="German"/>
+	</o>
+	<o type="text" id="FR-">
+		<p name="text" value="French"/>
+	</o>
+	<o type="text" id="IT-">
+		<p name="text" value="Italian"/>
+	</o>
+	<o type="text" id="SP-">
+		<p name="text" value="Spanish"/>
+	</o>
+	<o type="text" id="RU-">
+		<p name="text" value="Russian"/>
+    </o>
+        <o type="text" id="PT-">
+               <p name="text" value="Portuguese"/>
+	</o>
+	<o type="text" id="ENcoll">
+		<p name="text" value="English collection"/>
+	</o>
+	<o type="text" id="DEcoll">
+		<p name="text" value="German collection"/>
+	</o>
+	<o type="text" id="FRcoll">
+		<p name="text" value="French collection"/>
+	</o>
+	<o type="text" id="ITcoll">
+		<p name="text" value="Italian collection"/>
+	</o>
+	<o type="text" id="SPcoll">
+		<p name="text" value="Spanish collection"/>
+	</o>
+	<o type="text" id="RUcoll">
+		<p name="text" value="Russian collection"/>
+	</o>
+        <o type="text" id="PTcoll">
+		<p name="text" value="Portuguese collection"/>
+	</o>
+	<o type="text" id="ENx">
+		<p name="text" value="English collection"/>
+	</o>
+	<o type="text" id="DEx">
+		<p name="text" value="German collection"/>
+	</o>
+	<o type="text" id="FRx">
+		<p name="text" value="French collection"/>
+	</o>
+	<o type="text" id="ITx">
+		<p name="text" value="Italian collection"/>
+	</o>
+	<o type="text" id="SPx">
+		<p name="text" value="Spanish collection"/>
+	</o>
+	<o type="text" id="RUx">
+		<p name="text" value="Russian collection"/>
+	</o>
+        <o type="text" id="PTx">
+                <p name="text" value="Portuguese collection"/>
+	</o>
+	<o type="text" id="DERUgen">
+		<p name="text" value="Common vocabulary. Rymashevskaya"/>
+	</o>
+	<o type="text" id="DERUgen2">
+		<p name="text" value="Common vocabulary. Lein"/>
+	</o>
+	<o type="text" id="ENRUgen">
+		<p name="text" value="Common vocabulary. NBARS"/>
+	</o>
+	<o type="text" id="ENRUgen2">
+		<p name="text" value="Common vocabulary. Muller"/>
+	</o>
+	<o type="text" id="FRRUgen">
+		<p name="text" value="Common vocabulary. Raevskaya"/>
+	</o>
+	<o type="text" id="FRRUgen2">
+		<p name="text" value="Common vocabulary. Gak"/>
+	</o>
+	<o type="text" id="ITRUgen">
+		<p name="text" value="Common vocabulary. Zorko"/>
+	</o>
+	<o type="text" id="ITRUgen2">
+		<p name="text" value="Common vocabulary. Kovalev"/>
+	</o>
+	<o type="text" id="RUITgen2">
+		<p name="text" value="Common vocabulary. Kovalev"/>
+	</o>
+	<o type="text" id="RUDEgen2">
+		<p name="text" value="Common vocabulary. Zwilling"/>
+	</o>
+	<o type="text" id="RUDEgen">
+		<p name="text" value="Common vocabulary. Rymashevskaya"/>
+	</o>
+	<o type="text" id="RUENgen">
+		<p name="text" value="Common vocabulary. Smirnitsky"/>
+	</o>
+	<o type="text" id="RUFRgen">
+		<p name="text" value="Common vocabulary. Raevskaya"/>
+	</o>
+	<o type="text" id="RUFRgen2">
+		<p name="text" value="Common vocabulary. Scherba"/>
+	</o>
+	<o type="text" id="RUSPgen">
+		<p name="text" value="Common vocabulary. Turover"/>
+	</o>
+	<o type="text" id="SPRUgen">
+		<p name="text" value="Common vocabulary. Sadikov"/>
+	</o>
+	<o type="text" id="ENRUbrif">
+		<p name="text" value="Common vocabulary. Akhmanova"/>
+	</o>
+	<o type="text" id="RUENbrif">
+		<p name="text" value="Common vocabulary. Akhmanova"/>
+	</o>
+	<o type="text" id="gen">
+		<p name="text" value="Common vocabulary"/>
+	</o>
+	<o type="text" id="gen2">
+		<p name="text" value="Common vocabulary"/>
+	</o>
+	<o type="text" id="act">
+		<p name="text" value="Active vocabulary"/>
+	</o>
+	<o type="text" id="brif">
+		<p name="text" value="Brief vocabulary"/>
+	</o>
+	<o type="text" id="ecn">
+		<p name="text" value="Economics"/>
+	</o>
+	<o type="text" id="med">
+		<p name="text" value="Medicine"/>
+	</o>
+	<o type="text" id="tech">
+		<p name="text" value="Technics"/>
+	</o>
+	<o type="text" id="bank">
+		<p name="text" value="Banking"/>
+	</o>
+	<o type="text" id="bio">
+		<p name="text" value="Biology"/>
+	</o>
+	<o type="text" id="bld">
+		<p name="text" value="Building"/>
+	</o>
+	<o type="text" id="comp">
+		<p name="text" value="Computer engineering"/>
+	</o>
+	<o type="text" id="jur">
+		<p name="text" value="Law"/>
+	</o>
+	<o type="text" id="plgr">
+		<p name="text" value="Polygraphy"/>
+	</o>
+	<o type="text" id="soc">
+		<p name="text" value="Sociology"/>
+	</o>
+	<o type="text" id="sun">
+		<p name="text" value="Solar engineering"/>
+	</o>
+	<o type="text" id="oil">
+		<p name="text" value="Oil and Gas"/>
+	</o>
+	<o type="text" id="phys">
+		<p name="text" value="Physics"/>
+	</o>
+	<o type="text" id="abbr">
+		<p name="text" value="Abbreviations"/>
+	</o>
+	<o type="text" id="usa">
+		<p name="text" value="Regional studies. USA"/>
+	</o>
+	<o type="text" id="aus">
+		<p name="text" value="Regional studies. Australia"/>
+	</o>
+	<o type="text" id="brit">
+		<p name="text" value="Regional studies. United Kingdom"/>
+	</o>
+	<o type="text" id="lex">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="nlex">
+		<p name="text" value="New Russian lexicon"/>
+	</o>
+	<o type="text" id="webd">
+		<p name="text" value="Webster's New World Dictionary"/>
+	</o>
+	<o type="text" id="webt">
+		<p name="text" value="Webster's New World Thesaurus"/>
+	</o>
+	<o type="text" id="tele">
+		<p name="text" value="Telecommunications"/>
+	</o>
+	<o type="text" id="user">
+		<p name="text" value="User"/>
+	</o>
+	<o type="text" id="noun">
+		<p name="text" value="noun"/>
+	</o>
+	<o type="text" id="verb">
+		<p name="text" value="verb"/>
+	</o>
+	<o type="text" id="adjective">
+		<p name="text" value="adj."/>
+	</o>
+	<o type="text" id="adverb">
+		<p name="text" value="adverb"/>
+	</o>
+	<o type="text" id="article">
+		<p name="text" value="article"/>
+	</o>
+	<o type="text" id="particle">
+		<p name="text" value="particle"/>
+	</o>
+	<o type="text" id="conjunction">
+		<p name="text" value="conjunction"/>
+	</o>
+	<o type="text" id="preposition">
+		<p name="text" value="preposition"/>
+	</o>
+	<o type="text" id="pronoun">
+		<p name="text" value="pronoun"/>
+	</o>
+	<o type="text" id="interjection">
+		<p name="text" value="interjection"/>
+	</o>
+	<o type="text" id="pronoun-adjective">
+		<p name="text" value="pronoun-adjective"/>
+	</o>
+	<o type="text" id="abbreviation">
+		<p name="text" value="abbreviation"/>
+	</o>
+	<o type="text" id="hieroglyph">
+		<p name="text" value="hieroglyph"/>
+	</o>
+	<o type="text" id="personal pronoun">
+		<p name="text" value="personal pronoun"/>
+	</o>
+	<o type="text" id="reflexive pronoun">
+		<p name="text" value="reflexive pronoun"/>
+	</o>
+	<o type="text" id="demonstrative pronoun">
+		<p name="text" value="demonstrative pronoun"/>
+	</o>
+	<o type="text" id="possessive pronoun">
+		<p name="text" value="possessive pronoun"/>
+	</o>
+	<o type="text" id="perfective aspect">
+		<p name="text" value="perfective aspect"/>
+	</o>
+	<o type="text" id="imperfective aspect">
+		<p name="text" value="imperfective aspect"/>
+	</o>
+	<o type="text" id="imperfect">
+		<p name="text" value="imperfect"/>
+	</o>
+	<o type="text" id="indefinite">
+		<p name="text" value="indefinite"/>
+	</o>
+	<o type="text" id="animate">
+		<p name="text" value="animate"/>
+	</o>
+	<o type="text" id="inanimate">
+		<p name="text" value="inanimate"/>
+	</o>
+	<o type="text" id="animate-inanimate">
+		<p name="text" value="animate-inanimate"/>
+	</o>
+	<o type="text" id="intransitive">
+		<p name="text" value="intransitive"/>
+	</o>
+	<o type="text" id="transitive">
+		<p name="text" value="transitive"/>
+	</o>
+	<o type="text" id="masculine">
+		<p name="text" value="masculine"/>
+	</o>
+	<o type="text" id="feminine">
+		<p name="text" value="feminine"/>
+	</o>
+	<o type="text" id="neuter">
+		<p name="text" value="neuter"/>
+	</o>
+	<o type="text" id="1st person">
+		<p name="text" value="1st person"/>
+	</o>
+	<o type="text" id="2nd person">
+		<p name="text" value="2nd person"/>
+	</o>
+	<o type="text" id="3rd person">
+		<p name="text" value="3rd person"/>
+	</o>
+	<o type="text" id="singular">
+		<p name="text" value="singular"/>
+	</o>
+	<o type="text" id="plural">
+		<p name="text" value="plural"/>
+	</o>
+	<o type="text" id="1sg">
+		<p name="text" value="1sg"/>
+	</o>
+	<o type="text" id="2sg">
+		<p name="text" value="2sg"/>
+	</o>
+	<o type="text" id="3sg">
+		<p name="text" value="3sg"/>
+	</o>
+	<o type="text" id="1pl">
+		<p name="text" value="1pl"/>
+	</o>
+	<o type="text" id="2pl">
+		<p name="text" value="2pl"/>
+	</o>
+	<o type="text" id="3pl">
+		<p name="text" value="3pl"/>
+	</o>
+	<o type="text" id="nominative">
+		<p name="text" value="nominative"/>
+	</o>
+	<o type="text" id="genitive">
+		<p name="text" value="genitive"/>
+	</o>
+	<o type="text" id="dative">
+		<p name="text" value="dative"/>
+	</o>
+	<o type="text" id="accusative">
+		<p name="text" value="accusative"/>
+	</o>
+	<o type="text" id="instrumental">
+		<p name="text" value="instrumental"/>
+	</o>
+	<o type="text" id="prepositional">
+		<p name="text" value="prepositional"/>
+	</o>
+	<o type="text" id="reflexive">
+		<p name="text" value="reflexive"/>
+	</o>
+	<o type="text" id="impersonal">
+		<p name="text" value="impersonal"/>
+	</o>
+	<o type="text" id="participle">
+		<p name="text" value="participle"/>
+	</o>
+	<o type="text" id="active participle">
+		<p name="text" value="active participle"/>
+	</o>
+	<o type="text" id="passive participle">
+		<p name="text" value="passive participle"/>
+	</o>
+	<o type="text" id="verbal adverb">
+		<p name="text" value="verbal adverb"/>
+	</o>
+	<o type="text" id="I">
+		<p name="text" value="type I"/>
+	</o>
+	<o type="text" id="II">
+		<p name="text" value="type II"/>
+	</o>
+	<o type="text" id="I short">
+		<p name="text" value="type I (short)"/>
+	</o>
+	<o type="text" id="II short">
+		<p name="text" value="type II (short)"/>
+	</o>
+	<o type="text" id="infinitive">
+		<p name="text" value="infinitive"/>
+	</o>
+	<o type="text" id="imperative">
+		<p name="text" value="imperative"/>
+	</o>
+	<o type="text" id="present">
+		<p name="text" value="present"/>
+	</o>
+	<o type="text" id="past">
+		<p name="text" value="past"/>
+	</o>
+	<o type="text" id="future">
+		<p name="text" value="future"/>
+	</o>
+	<o type="text" id="short form">
+		<p name="text" value="short form"/>
+	</o>
+	<o type="text" id="present participle">
+		<p name="text" value="present participle"/>
+	</o>
+	<o type="text" id="past participle">
+		<p name="text" value="past participle"/>
+	</o>
+	<o type="text" id="positive degree">
+		<p name="text" value="positive degree"/>
+	</o>
+	<o type="text" id="comparative degree">
+		<p name="text" value="comparative degree"/>
+	</o>
+	<o type="text" id="comparative short">
+		<p name="text" value="comparative short"/>
+	</o>
+	<o type="text" id="superlative degree">
+		<p name="text" value="superlative degree"/>
+	</o>
+	<o type="text" id="superlative short">
+		<p name="text" value="superlative short"/>
+	</o>
+	<o type="text" id="subjective case">
+		<p name="text" value="subjective case"/>
+	</o>
+	<o type="text" id="objective case">
+		<p name="text" value="oive case"/>
+	</o>
+	<o type="text" id="possessive">
+		<p name="text" value="possessive"/>
+	</o>
+	<o type="text" id="3rd person sg present">
+		<p name="text" value="3rd person sg present"/>
+	</o>
+	<o type="text" id="numeral">
+		<p name="text" value="numeral"/>
+	</o>
+	<o type="text" id="prefix">
+		<p name="text" value="prefix"/>
+	</o>
+	<o type="text" id="invariant">
+		<p name="text" value="invariant"/>
+	</o>
+	<o type="text" id="attribute">
+		<p name="text" value="attribute"/>
+	</o>
+	<o type="text" id="onomat">
+		<p name="text" value="onomat"/>
+	</o>
+	<o type="text" id="conditional">
+		<p name="text" value="conditional"/>
+	</o>
+	<o type="text" id="subjunctive">
+		<p name="text" value="subjunctive"/>
+	</o>
+	<o type="text" id="subjunctive present">
+		<p name="text" value="subjunctive present"/>
+	</o>
+	<o type="text" id="subjunctive past">
+		<p name="text" value="subjunctive past"/>
+	</o>
+	<o type="text" id="gerund">
+		<p name="text" value="gerund"/>
+	</o>
+	<o type="text" id="msg">
+		<p name="text" value="msg"/>
+	</o>
+	<o type="text" id="mpl">
+		<p name="text" value="mpl"/>
+	</o>
+	<o type="text" id="fsg">
+		<p name="text" value="fsg"/>
+	</o>
+	<o type="text" id="fpl">
+		<p name="text" value="fpl"/>
+	</o>
+	<o type="text" id="complement">
+		<p name="text" value="complement"/>
+	</o>
+	<o type="text" id="direct">
+		<p name="text" value="direct"/>
+	</o>
+	<o type="text" id="indirect">
+		<p name="text" value="indirect"/>
+	</o>
+	<o type="text" id="ton">
+		<p name="text" value="ton"/>
+	</o>
+	<o type="text" id="aton">
+		<p name="text" value="aton"/>
+	</o>
+	<o type="text" id="present indefinite">
+		<p name="text" value="present indefinite"/>
+	</o>
+	<o type="text" id="conditional past">
+		<p name="text" value="conditional past"/>
+	</o>
+	<o type="text" id="conditional future">
+		<p name="text" value="conditional future"/>
+	</o>
+	<o type="text" id="conditional imperfect">
+		<p name="text" value="conditional imperfect"/>
+	</o>
+	<o type="text" id="polite">
+		<p name="text" value="polite"/>
+	</o>
+	<o type="text" id="name">
+		<p name="text" value="name"/>
+	</o>
+	<o type="text" id="family">
+		<p name="text" value="family"/>
+	</o>
+	<o type="text" id="geo">
+		<p name="text" value="geo"/>
+	</o>
+	<o type="text" id="prop">
+		<p name="text" value="prop"/>
+	</o>
+	<o type="text" id="modal">
+		<p name="text" value="modal"/>
+	</o>
+	<o type="text" id="MN">
+		<p name="text" value="masculine nominative"/>
+	</o>
+	<o type="text" id="MG">
+		<p name="text" value="masculine genitive"/>
+	</o>
+	<o type="text" id="MD">
+		<p name="text" value="masculine dative"/>
+	</o>
+	<o type="text" id="MA">
+		<p name="text" value="masculine accusative"/>
+	</o>
+	<o type="text" id="FN">
+		<p name="text" value="feminine nominative"/>
+	</o>
+	<o type="text" id="FG">
+		<p name="text" value="feminine genitive"/>
+	</o>
+	<o type="text" id="FD">
+		<p name="text" value="feminine dative"/>
+	</o>
+	<o type="text" id="FA">
+		<p name="text" value="feminine accusative"/>
+	</o>
+	<o type="text" id="NN">
+		<p name="text" value="neuter nominative"/>
+	</o>
+	<o type="text" id="NG">
+		<p name="text" value="neuter genitive"/>
+	</o>
+	<o type="text" id="ND">
+		<p name="text" value="neuter dative"/>
+	</o>
+	<o type="text" id="NA">
+		<p name="text" value="neuter accusative"/>
+	</o>
+	<o type="text" id="PN">
+		<p name="text" value="plural nominative"/>
+	</o>
+	<o type="text" id="PG">
+		<p name="text" value="plural genitive"/>
+	</o>
+	<o type="text" id="PD">
+		<p name="text" value="plural dative"/>
+	</o>
+	<o type="text" id="PA">
+		<p name="text" value="plural accusative"/>
+	</o>
+	<o type="text" id="Pr_1sg">
+		<p name="text" value="present 1sg"/>
+	</o>
+	<o type="text" id="Pr_2sg">
+		<p name="text" value="present 2sg"/>
+	</o>
+	<o type="text" id="Pr_3sg">
+		<p name="text" value="present 3sg"/>
+	</o>
+	<o type="text" id="Pr_1pl">
+		<p name="text" value="present. 1pl"/>
+	</o>
+	<o type="text" id="Pr_2pl">
+		<p name="text" value="present 2pl"/>
+	</o>
+	<o type="text" id="Pr_3pl">
+		<p name="text" value="present 3pl"/>
+	</o>
+	<o type="text" id="Fut_1sg">
+		<p name="text" value="future 1sg"/>
+	</o>
+	<o type="text" id="Fut_2sg">
+		<p name="text" value="future 2sg"/>
+	</o>
+	<o type="text" id="Fut_3sg">
+		<p name="text" value="future 3sg"/>
+	</o>
+	<o type="text" id="Fut_1pl">
+		<p name="text" value="future 1pl"/>
+	</o>
+	<o type="text" id="Fut_2pl">
+		<p name="text" value="future 2pl"/>
+	</o>
+	<o type="text" id="Fut_3pl">
+		<p name="text" value="future 3pl"/>
+	</o>
+
+	<o type="text" id="Error">
+		<p name="text" value="Error"/>
+	</o>
+	<o type="text" id="e0">
+		<p name="text" value="Operation succeeded"/>
+	</o>
+	<o type="text" id="e1">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="e2">
+		<p name="text" value="Can not open file &quot;%&quot;. This file is in use by another application"/>
+	</o>
+	<o type="text" id="e3">
+		<p name="text" value="File &quot;%&quot; not found. Please reinstall Oxford Dictionary"/>
+	</o>
+	<o type="text" id="e4">
+		<p name="text" value="Can not create file &quot;%&quot;. Please reinstall Oxford Dictionary"/>
+	</o>
+	<o type="text" id="e5">
+		<p name="text" value="Unknown file format &quot;%&quot;. Please reinstall Oxford Dictionary"/>
+	</o>
+	<o type="text" id="e6">
+		<p name="text" value="File &quot;%&quot; is corrupted. Please reinstall Oxford Dictionary"/>
+	</o>
+	<o type="text" id="e7">
+		<p name="text" value="Can not create object &quot;%&quot;. Please reinstall Oxford Dictionary"/>
+	</o>
+	<o type="text" id="e8">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="e9">
+		<p name="text" value="Object &quot;%&quot; is corrupted. Please reinstall Oxford Dictionary"/>
+	</o>
+	<o type="text" id="e1001">
+		<p name="text" value="Error: % Source: %. Please contact support team"/>
+	</o>
+	<o type="text" id="e2001">
+		<p name="text" value="Unknown error %. Source: % %. Please contact the support team"/>
+	</o>
+</root>

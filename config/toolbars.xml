@@ -1,0 +1,2236 @@
+<root>
+
+<o type="tbcontrol" id="main_menu">
+	<o type="tbcontrol">
+		<p name="cmdid" value="file" type="s" />
+		<p name="text" value="file" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+
+		<o type="tbcontrol">
+			<p name="cmdid" value="import" type="s" />
+			<p name="text" value="import_dic" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="export" type="s" />
+			<p name="text" value="export_dic" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+
+		<o type="tbcontrol">
+			<p name="cmdid" value="print" type="s" />
+			<p name="text" value="print" type="text" />
+			<p name="image" value="print" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+			<p name="shortcut" value="Ctrl+P" type="s" />
+		</o>
+
+		<o type="tbcontrol">
+			<p name="cmdid" value="exit" type="s" />
+			<p name="text" value="exit" type="text" />
+			<p name="image" value="exit" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+			<p name="shortcut" value="Alt+F4" type="s" />
+		</o>
+
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="edit" type="s" />
+		<p name="text" value="edit" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+
+		<o type="tbcontrol">
+			<p name="cmdid" value="go_back" type="s" />
+			<p name="text" value="go_back" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="image" value="back" type="image" />
+			<p name="style" value="6" type="n" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="go_fwd" type="s" />
+			<p name="text" value="go_fwd" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="image" value="fwd" type="image" />
+			<p name="style" value="6" type="n" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="cut" type="s" />
+			<p name="text" value="cut" type="text" />
+			<p name="image" value="cut" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="shortcut" value="Ctrl+X" type="s" />
+			<p name="group" value="1" type="n" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="copy" type="s" />
+			<p name="text" value="copy" type="text" />
+			<p name="image" value="copy" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="shortcut" value="Ctrl+C" type="s" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="paste" type="s" />
+			<p name="text" value="paste" type="text" />
+			<p name="image" value="paste" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="shortcut" value="Ctrl+V" type="s" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="selectall" type="s" />
+			<p name="text" value="selectall" type="text" />
+			<p name="image" value="selectall" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="shortcut" value="Ctrl+A" type="s" />
+		</o>
+
+		<o type="tbcontrol">
+			<p name="cmdid" value="insBookmark" type="s" />
+			<p name="text" value="insBookmark" type="text" />
+			<p name="image" value="bmkadd" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="delBookmark" type="s" />
+			<p name="text" value="delBookmark" type="text" />
+			<p name="image" value="bmkdel" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+
+		<o type="tbcontrol">
+			<p name="cmdid" value="delHistory" type="s" />
+			<p name="text" value="delHistory" type="text" />
+			<p name="image" value="histdel" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="style" value="6" type="n" />
+			<p name="group" value="1" type="n" />
+		</o>
+
+		<o type="tbcontrol">
+			<p name="cmdid" value="adddict" type="s" />
+			<p name="text" value="create_dict" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="deletedict" type="s" />
+			<p name="text" value="del_dict" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+
+		<o type="tbcontrol">
+			<p name="cmdid" value="addArticle" type="s" />
+			<p name="text" value="addArticle" type="text" />
+			<p name="image" value="artadd" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+			<p name="shortcut" value="F5" type="s" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="editArticle" type="s" />
+			<p name="text" value="editArticle" type="text" />
+			<p name="image" value="artedit" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="shortcut" value="F6" type="s" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="delArticle" type="s" />
+			<p name="text" value="delArticle" type="text" />
+			<p name="image" value="artdel" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="shortcut" value="F8" type="s" />
+		</o>
+
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="view" type="s" />
+		<p name="text" value="view" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+
+		<o type="tbcontrol" id="switch_mode">
+			<p name="cmdid" value="switch_mode" type="s" />
+			<p name="text" value="switch_mode" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+
+		<o type="tbcontrol" id="toolbars">
+			<p name="cmdid" value="toolbars" type="s" />
+			<p name="text" value="toolbars" type="text" />
+			<p name="image" value="tb" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		                               
+		<o type="tbcontrol" id="topmost">
+			<p name="cmdid" value="topmost" type="s" />
+			<p name="text" value="topmost" type="text" />
+			<p name="image" value="topmost" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		                                   
+		<o type="tbcontrol">
+			<p name="cmdid" value="showStatus" type="s" />
+			<p name="text" value="showStatus" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="showInput" type="s" />
+			<p name="text" value="showInput" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+
+		<o type="tbcontrol">
+			<p name="cmdid" value="showContents" type="s" />
+			<p name="text" value="showContents" type="text" />
+			<p name="image" value="contents" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+			<p name="shortcut" value="Ctrl+D" type="s" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="showResults" type="s" />
+			<p name="text" value="showResults" type="text" />
+			<p name="image" value="results" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="shortcut" value="Ctrl+F" type="s" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="showHistory" type="s" />
+			<p name="text" value="showHistory" type="text" />
+			<p name="image" value="history" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="shortcut" value="Ctrl+H" type="s" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="showBookmarks" type="s" />
+			<p name="text" value="showBookmarks" type="text" />
+			<p name="image" value="bmkadd" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="shortcut" value="Ctrl+B" type="s" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="showComments" type="s" />
+			<p name="text" value="showComments" type="text" />
+			<p name="image" value="comments" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="shortcut" value="F7" type="s" />
+		</o>
+
+		<o type="tbcontrol">
+			<p name="cmdid" value="showExamples" type="s" />
+			<p name="text" value="showExamples" type="text" />
+			<p name="image" value="examp" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="showTranscript" type="s" />
+			<p name="text" value="showTranscript" type="text" />
+			<p name="image" value="phon" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="showStress" type="s" />
+			<p name="text" value="showStress" type="text" />
+			<p name="image" value="stress" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="showHL" type="s" />
+			<p name="text" value="showHL" type="text" />
+			<p name="image" value="hilight" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="tools" type="s" />
+		<p name="text" value="tools" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+
+		<o type="tbcontrol" id="dictcoll">
+			<p name="cmdid" value="dictcoll" type="s" />
+			<p name="text" value="dictcoll" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="style" value="3" type="n" />
+		</o>
+		<o type="tbcontrol" id="dicts">
+			<p name="cmdid" value="dicts" type="s" />
+			<p name="text" value="dicts" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="style" value="3" type="n" />
+		</o>
+		<!--
+		<o type="tbcontrol">
+			<p name="cmdid" value="swaplang" type="s" />
+			<p name="text" value="swaplang" type="text" />
+			<p name="image" value="swaplang" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="style" value="3" type="n" />
+		</o>
+		-->
+		<o type="tbcontrol">
+			<p name="cmdid" value="search" type="s" />
+			<p name="text" value="search" type="text" />
+			<p name="image" value="search" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="searchAlpha" type="s" />
+			<p name="text" value="searchAlpha" type="text" />
+			<p name="image" value="searcha" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		<!--
+		<o type="tbcontrol">
+			<p name="cmdid" value="searchQuick" type="s" />
+			<p name="text" value="searchQuick" type="text" />
+			<p name="image" value="searcha" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		-->
+		<o type="tbcontrol">
+			<p name="cmdid" value="paradigm" type="s" />
+			<p name="text" value="paradigm" type="text" />
+			<p name="image" value="paradigm" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="shortcut" value="Ctrl+Q" type="s" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="speech" type="s" />
+			<p name="text" value="speech" type="text" />
+			<p name="image" value="speech" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+			<p name="shortcut" value="Ctrl+S" type="s" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="setup_dic" type="s" />
+			<p name="text" value="setup_dic" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="settings" type="s" />
+			<p name="text" value="settings" type="text" />
+			<p name="image" value="settings" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="help" type="s" />
+		<p name="text" value="help" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+
+		<o type="tbcontrol">
+			<p name="cmdid" value="help_contents" type="s" />
+			<p name="text" value="help_contents" type="text" />
+			<p name="image" value="helpcont" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="shortcut" value="F1" type="s" />
+		</o>
+		<!--
+		<o type="tbcontrol">
+			<p name="cmdid" value="help_abbr" type="s" />
+			<p name="text" value="help_abbr" type="text" />
+			<p name="image" value="helpabbr" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="help_irregular" type="s" />
+			<p name="text" value="help_irregular" type="text" />
+			<p name="image" value="helpirr" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="help_transcript" type="s" />
+			<p name="text" value="help_transcript" type="text" />
+			<p name="image" value="helpphon" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="help_dict" type="s" />
+			<p name="text" value="help_dict" type="text" />
+			<p name="image" value="helpdict" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		-->
+		<o type="tbcontrol">
+			<p name="cmdid" value="help_activate" type="s" />
+			<p name="text" value="help_activate" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="0" type="n" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="help_about" type="s" />
+			<p name="text" value="help_about" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+		</o>
+	</o>
+</o>
+
+<o type="tbcontrol" id="dicts_tb">
+	<p name="cmdid" value="dicts" type="s" />
+	<p name="text" value="dicts" type="text" />
+	<p name="fonts" value="tb" type="fontset" />
+	<p name="style" value="3" type="n" />
+
+</o>
+
+<o type="tbcontrol" id="dict_popup">
+	<o type="tbcontrol">
+		<p name="cmdid" value="dictSelectAll" type="s" />
+		<p name="text" value="dictSelectAll" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="dictUnselectAll" type="s" />
+		<p name="text" value="dictUnselectAll" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+	</o>
+
+		<o type="tbcontrol">
+			<p name="cmdid" value="adddict" type="s" />
+			<p name="text" value="create_dict" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="import" type="s" />
+			<p name="text" value="import_dic" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="export2" type="s" />
+			<p name="text" value="export_dic" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		<o type="tbcontrol">
+			<p name="cmdid" value="deletedict2" type="s" />
+			<p name="text" value="del_dict" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+<!--
+		<o type="tbcontrol">
+			<p name="cmdid" value="help_dict2" type="s" />
+			<p name="text" value="help_dict" type="text" />
+			<p name="image" value="helpdict" type="image" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+		</o>
+-->
+		<o type="tbcontrol">
+			<p name="cmdid" value="setup_dic" type="s" />
+			<p name="text" value="setup_dic" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+			<p name="group" value="1" type="n" />
+		</o>
+
+</o>
+
+<o type="tbcontrol" id="editor">
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="edit_head" type="s" />
+		<p name="text" value="edit_head" type="text" />
+		<p name="image" value="contents" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="edit_trans" type="s" />
+		<p name="text" value="edit_trans" type="text" />
+		<p name="image" value="paradigm" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="edit_examp" type="s" />
+		<p name="text" value="edit_examp" type="text" />
+		<p name="image" value="examp" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="edit_phon" type="s" />
+		<p name="text" value="edit_phon" type="text" />
+		<p name="image" value="phon" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="edit_stress" type="s" />
+		<p name="text" value="edit_stress" type="text" />
+		<p name="image" value="stress" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="edit_abbr" type="s" />
+		<p name="text" value="help_abbr" type="text" />
+		<p name="image" value="helpabbr" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol" id="toolbars2">
+		<p name="cmdid" value="toolbars" type="s" />
+		<p name="text" value="toolbars" type="text" />
+		<p name="image" value="tb" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+		<p name="group" value="1" type="n" />
+
+		<o type="tbcontrol" id="toolbar70_lat">
+			<p name="cmdid" value="_toolbar2_toolbar70_lat" type="s" />
+			<p name="text" value="toolbarlat" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		<o type="tbcontrol" id="toolbar80_phon">
+			<p name="cmdid" value="_toolbar2_toolbar80_phon" type="s" />
+			<p name="text" value="toolbarphon" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		<o type="tbcontrol" id="toolbar90_sym">
+			<p name="cmdid" value="_toolbar2_toolbar90_sym" type="s" />
+			<p name="text" value="toolbarsym" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+		<o type="tbcontrol" id="toolbara0_cyr">
+			<p name="cmdid" value="_toolbar2_toolbara0_cyr" type="s" />
+			<p name="text" value="toolbarcyr" type="text" />
+			<p name="fonts" value="tb" type="fontset" />
+		</o>
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="addArticle" type="s" />
+		<p name="text" value="addArticle" type="text" />
+		<p name="image" value="artadd" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="saveArticle" type="s" />
+		<p name="text" value="saveArticle" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="image" value="save" type="image" />
+	</o>
+</o>
+
+<o type="tbcontrol" id="popup_empty">
+</o>
+
+<o type="tbcontrol" id="popup_trans">
+
+	<o type="tbcontrol" id="topmost">
+		<p name="cmdid" value="topmostPopup" type="s" />
+		<p name="text" value="topmost" type="text" />
+		<p name="image" value="topmost" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paradigmPopup" type="s" />
+		<p name="text" value="paradigm" type="text" />
+		<p name="image" value="paradigm" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="speechPopup" type="s" />
+		<p name="text" value="speech" type="text" />
+		<p name="image" value="speech" type="image" />
+		<p name="style" value="3" type="n" />
+		<p name="fonts" value="tb" type="fontset" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="searchAlphaPopup" type="s" />
+		<p name="text" value="searchAlpha" type="text" />
+		<p name="image" value="searcha" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="searchMore" type="s" />
+		<p name="text" value="searchMore" type="text" />
+		<p name="image" value="search" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+	</o>
+</o>
+
+<o type="tbcontrol" id="standard">
+	<o type="tbcontrol">
+		<p name="cmdid" value="addArticle" type="s" />
+		<p name="text" value="addArticle" type="text" />
+		<p name="image" value="artadd" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="editArticle" type="s" />
+		<p name="text" value="editArticle" type="text" />
+		<p name="image" value="artedit" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="delArticle" type="s" />
+		<p name="text" value="delArticle" type="text" />
+		<p name="image" value="artdel" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="print" type="s" />
+		<p name="text" value="print" type="text" />
+		<p name="image" value="print" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cut" type="s" />
+		<p name="text" value="cut" type="text" />
+		<p name="image" value="cut" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="copy" type="s" />
+		<p name="text" value="copy" type="text" />
+		<p name="image" value="copy" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paste" type="s" />
+		<p name="text" value="paste" type="text" />
+		<p name="image" value="paste" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="insBookmark" type="s" />
+		<p name="text" value="insBookmark" type="text" />
+		<p name="image" value="bmkadd" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="delBookmark" type="s" />
+		<p name="text" value="delBookmark" type="text" />
+		<p name="image" value="bmkdel" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="delHistory" type="s" />
+		<p name="text" value="delHistory" type="text" />
+		<p name="image" value="histdel" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+</o>
+
+<o type="tbcontrol" id="formatting">
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="showExamples" type="s" />
+		<p name="text" value="showExamples" type="text" />
+		<p name="tooltip" value="showExamplesTip" type="text" />
+		<p name="image" value="examp" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="showTranscript" type="s" />
+		<p name="text" value="showTranscript" type="text" />
+		<p name="tooltip" value="showTranscriptTip" type="text" />
+		<p name="image" value="phon" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="showStress" type="s" />
+		<p name="text" value="showStress" type="text" />
+		<p name="tooltip" value="showStressTip" type="text" />
+		<p name="image" value="stress" type="image" />
+		<p name="style" value="3" type="n" />
+		<p name="fonts" value="tb" type="fontset" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="showHL" type="s" />
+		<p name="text" value="showHL" type="text" />
+		<p name="tooltip" value="showHLTip" type="text" />
+		<p name="image" value="hilight" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="art_font_up" type="s" />
+		<p name="text" value="art_font_up" type="text" />
+		<p name="image" value="fontup" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="art_font_down" type="s" />
+		<p name="text" value="art_font_down" type="text" />
+		<p name="image" value="fontdown" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+</o>
+
+<o type="tbcontrol" id="navigation">
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="go_back" type="s" />
+		<p name="text" value="go_back" type="text" />
+		<p name="image" value="back" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="go_fwd" type="s" />
+		<p name="text" value="go_fwd" type="text" />
+		<p name="image" value="fwd" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="go_first" type="s" />
+		<p name="text" value="go_first" type="text" />
+		<p name="image" value="first" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="go_prev" type="s" />
+		<p name="text" value="go_prev" type="text" />
+		<p name="image" value="pageup" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="go_next" type="s" />
+		<p name="text" value="go_next" type="text" />
+		<p name="image" value="pagedown" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="go_last" type="s" />
+		<p name="text" value="go_last" type="text" />
+		<p name="image" value="last" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="go_pgup" type="s" />
+		<p name="text" value="go_pgup" type="text" />
+		<p name="image" value="prev" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="go_pgdn" type="s" />
+		<p name="text" value="go_pgdn" type="text" />
+		<p name="image" value="next" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+
+</o>
+
+<o type="tbcontrol" id="service">
+	<!--
+	<o type="tbcontrol">
+		<p name="cmdid" value="swaplang" type="s" />
+		<p name="text" value="swaplang" type="text" />
+		<p name="image" value="swaplang" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	-->
+	<o type="tbcontrol">
+		<p name="cmdid" value="search" type="s" />
+		<p name="text" value="search" type="text" />
+		<p name="image" value="search" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="searchAlpha" type="s" />
+		<p name="text" value="searchAlpha" type="text" />
+		<p name="image" value="searcha" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="group" value="1" type="n" />
+		<p name="cmdid" value="speech" type="s" />
+		<p name="text" value="speech" type="text" />
+		<p name="image" value="speech" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paradigm" type="s" />
+		<p name="text" value="paradigm" type="text" />
+		<p name="image" value="paradigm" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="settings" type="s" />
+		<p name="text" value="settings" type="text" />
+		<p name="image" value="settings" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+		<p name="style" value="3" type="n" />
+	</o>
+
+</o>
+
+<o type="tbcontrol" id="trayPopup">
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="run" type="s" />
+		<p name="text" value="run" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+	</o>
+	<o type="tbcontrol" id="topmost">
+		<p name="cmdid" value="topmost" type="s" />
+		<p name="text" value="topmost" type="text" />
+		<p name="image" value="topmost" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol" id="dictcoll_tray">
+		<p name="cmdid" value="dictcoll" type="s" />
+		<p name="text" value="dictcoll" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<!--
+	<o type="tbcontrol">
+		<p name="cmdid" value="swaplang" type="s" />
+		<p name="text" value="swaplang" type="text" />
+		<p name="image" value="swaplang" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="3" type="n" />
+	</o>
+	-->
+	<o type="tbcontrol">
+		<p name="cmdid" value="exit" type="s" />
+		<p name="text" value="exit" type="text" />
+		<p name="image" value="exit" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+	</o>
+
+</o>
+
+<o type="tbcontrol" id="contentsPopup">
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="search" type="s" />
+		<p name="text" value="search" type="text" />
+		<p name="image" value="search" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paradigm" type="s" />
+		<p name="text" value="paradigm" type="text" />
+		<p name="image" value="paradigm" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="speech" type="s" />
+		<p name="text" value="speech" type="text" />
+		<p name="image" value="speech" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="editArticle" type="s" />
+		<p name="text" value="editArticle" type="text" />
+		<p name="image" value="artedit" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="delArticle" type="s" />
+		<p name="text" value="delArticle" type="text" />
+		<p name="image" value="artdel" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="selectall" type="s" />
+		<p name="text" value="selectall" type="text" />
+		<p name="image" value="selectall" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="copy" type="s" />
+		<p name="text" value="copy" type="text" />
+		<p name="image" value="copy" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="insBookmark" type="s" />
+		<p name="text" value="insBookmark" type="text" />
+		<p name="image" value="bmkadd" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+</o>
+
+<o type="tbcontrol" id="historyPopup">
+
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="search" type="s" />
+		<p name="text" value="search" type="text" />
+		<p name="image" value="search" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paradigm" type="s" />
+		<p name="text" value="paradigm" type="text" />
+		<p name="image" value="paradigm" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="speech" type="s" />
+		<p name="text" value="speech" type="text" />
+		<p name="image" value="speech" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="editArticle" type="s" />
+		<p name="text" value="editArticle" type="text" />
+		<p name="image" value="artedit" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="delArticle" type="s" />
+		<p name="text" value="delArticle" type="text" />
+		<p name="image" value="artdel" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="selectall" type="s" />
+		<p name="text" value="selectall" type="text" />
+		<p name="image" value="selectall" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="copy" type="s" />
+		<p name="text" value="copy" type="text" />
+		<p name="image" value="copy" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="insBookmark" type="s" />
+		<p name="text" value="insBookmark" type="text" />
+		<p name="image" value="bmkadd" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="delHistory" type="s" />
+		<p name="text" value="delHistory" type="text" />
+		<p name="image" value="histdel" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+</o>
+
+<o type="tbcontrol" id="searchPopup">
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="search" type="s" />
+		<p name="text" value="search" type="text" />
+		<p name="image" value="search" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paradigm" type="s" />
+		<p name="text" value="paradigm" type="text" />
+		<p name="image" value="paradigm" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="speech" type="s" />
+		<p name="text" value="speech" type="text" />
+		<p name="image" value="speech" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="editArticle" type="s" />
+		<p name="text" value="editArticle" type="text" />
+		<p name="image" value="artedit" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="delArticle" type="s" />
+		<p name="text" value="delArticle" type="text" />
+		<p name="image" value="artdel" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="selectall" type="s" />
+		<p name="text" value="selectall" type="text" />
+		<p name="image" value="selectall" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="copy" type="s" />
+		<p name="text" value="copy" type="text" />
+		<p name="image" value="copy" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="insBookmark" type="s" />
+		<p name="text" value="insBookmark" type="text" />
+		<p name="image" value="bmkadd" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+
+</o>
+
+
+<o type="tbcontrol" id="bookmarksPopup">
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="search" type="s" />
+		<p name="text" value="search" type="text" />
+		<p name="image" value="search" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paradigm" type="s" />
+		<p name="text" value="paradigm" type="text" />
+		<p name="image" value="paradigm" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="speech" type="s" />
+		<p name="text" value="speech" type="text" />
+		<p name="image" value="speech" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="editArticle" type="s" />
+		<p name="text" value="editArticle" type="text" />
+		<p name="image" value="artedit" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="delArticle" type="s" />
+		<p name="text" value="delArticle" type="text" />
+		<p name="image" value="artdel" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="selectall" type="s" />
+		<p name="text" value="selectall" type="text" />
+		<p name="image" value="selectall" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="copy" type="s" />
+		<p name="text" value="copy" type="text" />
+		<p name="image" value="copy" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="delBookmark" type="s" />
+		<p name="text" value="delBookmark" type="text" />
+		<p name="image" value="bmkdel" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+
+</o>
+
+<o type="tbcontrol" id="inputPopup">
+	<o type="tbcontrol">
+		<p name="cmdid" value="selectall" type="s" />
+		<p name="text" value="selectall" type="text" />
+		<p name="image" value="selectall" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cut" type="s" />
+		<p name="text" value="cut" type="text" />
+		<p name="image" value="cut" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="copy" type="s" />
+		<p name="text" value="copy" type="text" />
+		<p name="image" value="copy" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paste" type="s" />
+		<p name="image" value="paste" type="image" />
+		<p name="text" value="paste" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+
+	<o type="tbcontrol">
+		<p name="group" value="1" type="n" />
+		<p name="cmdid" value="search" type="s" />
+		<p name="text" value="search" type="text" />
+		<p name="image" value="search" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="searchAlpha" type="s" />
+		<p name="text" value="searchAlpha" type="text" />
+		<p name="image" value="searcha" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paradigm" type="s" />
+		<p name="text" value="paradigm" type="text" />
+		<p name="image" value="paradigm" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="speech" type="s" />
+		<p name="text" value="speech" type="text" />
+		<p name="image" value="speech" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+
+</o>
+
+<o type="tbcontrol" id="std_input">
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="copy" type="s" />
+		<p name="text" value="copy" type="text" />
+		<p name="image" value="copy" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cut" type="s" />
+		<p name="text" value="cut" type="text" />
+		<p name="image" value="cut" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paste" type="s" />
+		<p name="image" value="paste" type="image" />
+		<p name="text" value="paste" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="selectall" type="s" />
+		<p name="text" value="selectall" type="text" />
+		<p name="image" value="selectall" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+
+</o>
+
+<o type="tbcontrol" id="tabPopup">
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="undock" type="s" />
+		<p name="text" value="undock" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="close" type="s" />
+		<p name="text" value="close" type="text" />
+		<p name="image" value="close" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="close_all" type="s" />
+		<p name="text" value="close_all" type="text" />
+		<p name="image" value="close" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+</o>
+<o type="tbcontrol" id="tabPopup2">
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="close" type="s" />
+		<p name="text" value="close" type="text" />
+		<p name="image" value="close" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="close_all" type="s" />
+		<p name="text" value="close_all" type="text" />
+		<p name="image" value="close" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+</o>
+
+
+
+<o type="tbcontrol" id="artEditPopup">
+	<o type="tbcontrol">
+		<p name="cmdid" value="selectall" type="s" />
+		<p name="text" value="selectall" type="text" />
+		<p name="image" value="selectall" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cut" type="s" />
+		<p name="text" value="cut" type="text" />
+		<p name="image" value="cut" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="copy" type="s" />
+		<p name="text" value="copy" type="text" />
+		<p name="image" value="copy" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paste" type="s" />
+		<p name="image" value="paste" type="image" />
+		<p name="text" value="paste" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+
+	<o type="tbcontrol">
+		<p name="group" value="1" type="n" />
+		<p name="cmdid" value="search" type="s" />
+		<p name="text" value="search" type="text" />
+		<p name="image" value="search" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="searchAlpha" type="s" />
+		<p name="text" value="searchAlpha" type="text" />
+		<p name="image" value="searcha" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paradigm" type="s" />
+		<p name="text" value="paradigm" type="text" />
+		<p name="image" value="paradigm" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="speech" type="s" />
+		<p name="text" value="speech" type="text" />
+		<p name="image" value="speech" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+</o>
+
+<o type="tbcontrol" id="artViewPopup">
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="search" type="s" />
+		<p name="text" value="search" type="text" />
+		<p name="image" value="search" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="searchAlpha" type="s" />
+		<p name="text" value="searchAlpha" type="text" />
+		<p name="image" value="searcha" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paradigm" type="s" />
+		<p name="text" value="paradigm" type="text" />
+		<p name="image" value="paradigm" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="speech" type="s" />
+		<p name="text" value="speech" type="text" />
+		<p name="image" value="speech" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="editArticle" type="s" />
+		<p name="text" value="editArticle" type="text" />
+		<p name="image" value="artedit" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="delArticle" type="s" />
+		<p name="text" value="delArticle" type="text" />
+		<p name="image" value="artdel" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="selectall" type="s" />
+		<p name="text" value="selectall" type="text" />
+		<p name="image" value="selectall" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="copy" type="s" />
+		<p name="text" value="copy" type="text" />
+		<p name="image" value="copy" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="insBookmark" type="s" />
+		<p name="text" value="insBookmark" type="text" />
+		<p name="image" value="bmkadd" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+
+</o>
+
+<o type="tbcontrol" id="commentPopup">
+	<o type="tbcontrol">
+		<p name="cmdid" value="selectall" type="s" />
+		<p name="text" value="selectall" type="text" />
+		<p name="image" value="selectall" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cut" type="s" />
+		<p name="text" value="cut" type="text" />
+		<p name="image" value="cut" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="copy" type="s" />
+		<p name="text" value="copy" type="text" />
+		<p name="image" value="copy" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paste" type="s" />
+		<p name="image" value="paste" type="image" />
+		<p name="text" value="paste" type="text" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+
+	<o type="tbcontrol">
+		<p name="group" value="1" type="n" />
+		<p name="cmdid" value="search" type="s" />
+		<p name="text" value="search" type="text" />
+		<p name="image" value="search" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="searchAlpha" type="s" />
+		<p name="text" value="searchAlpha" type="text" />
+		<p name="image" value="searcha" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="paradigm" type="s" />
+		<p name="text" value="paradigm" type="text" />
+		<p name="image" value="paradigm" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="speech" type="s" />
+		<p name="text" value="speech" type="text" />
+		<p name="image" value="speech" type="image" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="6" type="n" />
+	</o>
+</o>
+
+
+<o type="tbcontrol" id="latin_tb">
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00E0" type="s" />
+		<p name="text" value=" &#x00C0; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+G,A" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00E1" type="s" />
+		<p name="text" value=" &#x00C1; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+W,A" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00E2" type="s" />
+		<p name="text" value=" &#x00C2; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+R,A" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00E3" type="s" />
+		<p name="text" value=" &#x00C3; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+T,A" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00E4" type="s" />
+		<p name="text" value=" &#x00C4; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+U,A" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00E6" type="s" />
+		<p name="text" value=" &#x00C6; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+L,A" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00E7" type="s" />
+		<p name="text" value=" &#x00C7; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+L,C" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00E8" type="s" />
+		<p name="text" value=" &#x00C8; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+G,E" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00E9" type="s" />
+		<p name="text" value=" &#x00C9; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+W,E" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00EA" type="s" />
+		<p name="text" value=" &#x00CA; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+R,E" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00EB" type="s" />
+		<p name="text" value=" &#x00CB; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+U,E" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00EC" type="s" />
+		<p name="text" value=" &#x00CC; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+G,I" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00ED" type="s" />
+		<p name="text" value=" &#x00CD; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+W,I" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00EE" type="s" />
+		<p name="text" value=" &#x00CE; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+R,I" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00EF" type="s" />
+		<p name="text" value=" &#x00CF; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+U,I" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00F1" type="s" />
+		<p name="text" value=" &#x00D1; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+T,N" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00F2" type="s" />
+		<p name="text" value=" &#x00D2; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+G,O" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00F3" type="s" />
+		<p name="text" value=" &#x00D3; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+W,O" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00F4" type="s" />
+		<p name="text" value=" &#x00D4; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+R,O" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00F5" type="s" />
+		<p name="text" value=" &#x00D5; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+T,O" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00F6" type="s" />
+		<p name="text" value=" &#x00D6; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+U,O" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_0153" type="s" />
+		<p name="text" value=" &#x0152; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+L,O" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00F9" type="s" />
+		<p name="text" value=" &#x00D9; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+G,U" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00FA" type="s" />
+		<p name="text" value=" &#x00DA; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+W,U" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00FB" type="s" />
+		<p name="text" value=" &#x00DB; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+R,U" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00FC" type="s" />
+		<p name="text" value=" &#x00DC; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+U,U" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00FD" type="s" />
+		<p name="text" value=" &#x00DD; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+W,Y" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00DF" type="s" />
+		<p name="text" value=" &#x00DF; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+L,S" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00A1" type="s" />
+		<p name="text" value=" &#x00A1; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+L,I" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="lat_00BF" type="s" />
+		<p name="text" value=" &#x00BF; " type="s" />
+		<p name="fonts" value="tb" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="CTRL+L,J" type="text" />
+	</o>
+</o>
+
+
+<o type="tbcontrol" id="cyr_tb">
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0430" type="s" />
+		<p name="text" value="&#x0410;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0431" type="s" />
+		<p name="text" value="&#x0411;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0432" type="s" />
+		<p name="text" value="&#x0412;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0433" type="s" />
+		<p name="text" value="&#x0413;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0434" type="s" />
+		<p name="text" value="&#x0414;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0435" type="s" />
+		<p name="text" value="&#x0415;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0451" type="s" />
+		<p name="text" value="&#x0401;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0436" type="s" />
+		<p name="text" value="&#x0416;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0437" type="s" />
+		<p name="text" value="&#x0417;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0438" type="s" />
+		<p name="text" value="&#x0418;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0439" type="s" />
+		<p name="text" value="&#x0419;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_043A" type="s" />
+		<p name="text" value="&#x041A;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_043B" type="s" />
+		<p name="text" value="&#x041B;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_043C" type="s" />
+		<p name="text" value="&#x041C;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_043D" type="s" />
+		<p name="text" value="&#x041D;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_043E" type="s" />
+		<p name="text" value="&#x041E;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_043F" type="s" />
+		<p name="text" value="&#x041F;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0440" type="s" />
+		<p name="text" value="&#x0420;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0441" type="s" />
+		<p name="text" value="&#x0421;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0442" type="s" />
+		<p name="text" value="&#x0422;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0443" type="s" />
+		<p name="text" value="&#x0423;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0444" type="s" />
+		<p name="text" value="&#x0424;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0445" type="s" />
+		<p name="text" value="&#x0425;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0446" type="s" />
+		<p name="text" value="&#x0426;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0447" type="s" />
+		<p name="text" value="&#x0427;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0448" type="s" />
+		<p name="text" value="&#x0428;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_0449" type="s" />
+		<p name="text" value="&#x0429;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_044A" type="s" />
+		<p name="text" value="&#x042A;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_044B" type="s" />
+		<p name="text" value="&#x042B;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_044C" type="s" />
+		<p name="text" value="&#x042C;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_044D" type="s" />
+		<p name="text" value="&#x042D;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_044E" type="s" />
+		<p name="text" value="&#x042E;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="cyr_044F" type="s" />
+		<p name="text" value="&#x042F;" type="s" />
+		<p name="fonts" value="tb_cyr" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+</o>
+
+<o type="tbcontrol" id="symbols_tb">
+	<o type="tbcontrol">
+		<p name="cmdid" value="sym_00E0" type="s" />
+		<p name="text" value=" &#x00E0; " type="s" />
+		<p name="fonts" value="tb_sym" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="idioms_tip" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="sym_007E" type="s" />
+		<p name="text" value=" &#x007E; " type="s" />
+		<p name="fonts" value="tb_sym" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="term_tip" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="sym_0040" type="s" />
+		<p name="text" value=" &#x0040; " type="s" />
+		<p name="fonts" value="tb_sym" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="approx_tip" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="sym_003D" type="s" />
+		<p name="text" value=" &#x003D; " type="s" />
+		<p name="fonts" value="tb_sym" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="equal_tip" type="text" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="sym_002A" type="s" />
+		<p name="text" value=" &#x002A; " type="s" />
+		<p name="fonts" value="tb_sym" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="tooltip" value="irregular_tip" type="text" />
+	</o>
+</o>
+
+<o type="tbcontrol" id="phon_tb">
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_005B" type="s" />
+		<p name="text" value="&#x005B;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_005D" type="s" />
+		<p name="text" value="&#x005D;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0022" type="s" />
+		<p name="text" value="&#x0022;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0027" type="s" />
+		<p name="text" value="&#x0027;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0028" type="s" />
+		<p name="text" value="&#x0028;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0029" type="s" />
+		<p name="text" value="&#x0029;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0052" type="s" />
+		<p name="text" value="&#x0052;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0051" type="s" />
+		<p name="text" value="&#x0051;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0050" type="s" />
+		<p name="text" value="&#x0050;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0041" type="s" />
+		<p name="text" value="&#x0041;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0062" type="s" />
+		<p name="text" value="b" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0064" type="s" />
+		<p name="text" value="d" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_005A" type="s" />
+		<p name="text" value="&#x005A;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0065" type="s" />
+		<p name="text" value="e" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0071" type="s" />
+		<p name="text" value="&#x0071;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0057" type="s" />
+		<p name="text" value="&#x0057;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0045" type="s" />
+		<p name="text" value="&#x0045;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0046" type="s" />
+		<p name="text" value="&#x0046;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0066" type="s" />
+		<p name="text" value="f" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0067" type="s" />
+		<p name="text" value="g" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0068" type="s" />
+		<p name="text" value="h" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0049" type="s" />
+		<p name="text" value="&#x0049;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0069" type="s" />
+		<p name="text" value="i" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_004A" type="s" />
+		<p name="text" value="&#x004A;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_006A" type="s" />
+		<p name="text" value="j" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_006B" type="s" />
+		<p name="text" value="k" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_006C" type="s" />
+		<p name="text" value="l" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_006D" type="s" />
+		<p name="text" value="m" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_006E" type="s" />
+		<p name="text" value="n" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_004E" type="s" />
+		<p name="text" value="&#x004E;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_004F" type="s" />
+		<p name="text" value="&#x004F;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_004C" type="s" />
+		<p name="text" value="&#x004C;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0070" type="s" />
+		<p name="text" value="p" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0072" type="s" />
+		<p name="text" value="r" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0073" type="s" />
+		<p name="text" value="s" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0074" type="s" />
+		<p name="text" value="t" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0075" type="s" />
+		<p name="text" value="u" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0048" type="s" />
+		<p name="text" value="&#x0048;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0076" type="s" />
+		<p name="text" value="v" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0077" type="s" />
+		<p name="text" value="w" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_007A" type="s" />
+		<p name="text" value="z" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0053" type="s" />
+		<p name="text" value="&#x0053;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0054" type="s" />
+		<p name="text" value="&#x0054;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0044" type="s" />
+		<p name="text" value="&#x0044;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0078" type="s" />
+		<p name="text" value="&#x0078;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+		<p name="group" value="1" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_00610049" type="s" />
+		<p name="text" value="&#x0061;&#x0049;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0056" type="s" />
+		<p name="text" value="&#x0056;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0047" type="s" />
+		<p name="text" value="&#x0047;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_00650071" type="s" />
+		<p name="text" value="&#x0065;&#x0071;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_00650049" type="s" />
+		<p name="text" value="&#x0065;&#x0049;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_00710056" type="s" />
+		<p name="text" value="&#x0071;&#x0056;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_00490071" type="s" />
+		<p name="text" value="&#x0049;&#x0071;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_004F0049" type="s" />
+		<p name="text" value="&#x004F;&#x0049;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_0043" type="s" />
+		<p name="text" value="&#x0043;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+	<o type="tbcontrol">
+		<p name="cmdid" value="phn_00560071" type="s" />
+		<p name="text" value="&#x0056;&#x0071;" type="s" />
+		<p name="fonts" value="tb_phn" type="fontset" />
+		<p name="style" value="2" type="n" />
+	</o>
+
+</o>
+
+
+</root>

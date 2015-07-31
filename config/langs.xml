@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root>
+
+	<o type="lang" id="RU">
+		<p name="name" value="russian" type="text" />
+		<p name="file" value="russian.xml" type="s" />
+	</o>
+	<o type="lang" id="EN">
+		<p name="name" value="english" type="text" />
+		<p name="file" value="english.xml" type="s" />
+	</o>
+</root>

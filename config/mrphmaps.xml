@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root>
+	<o id="all" type="mrphmap">
+		<p name="*" value="" type="s"/>
+		<p name="text" value="particle" type="s"/>
+		<p name="вид=нсв" value="imperfective aspect" type="s"/>
+		<p name="вид=св" value="perfective aspect" type="s"/>
+		<p name="возвр=возвр" value="reflexive" type="s"/>
+		<p name="воз=воз" value="reflexive" type="s"/>
+		<p name="возвр=невозвр" value="" type="s"/>
+		<p name="вр=буд" value="future" type="s"/>
+		<p name="вр=вр_нет" value="" type="s"/>
+		<p name="вр=наст" value="present" type="s"/>
+		<p name="вр=непрош" value="" type="s"/>
+		<p name="вр=прош" value="past" type="s"/>
+		<p name="кр=кр" value="" type="s"/>
+		<p name="кр=некр" value="" type="s"/>
+		<p name="л=1" value="1st person" type="s"/>
+		<p name="л=2" value="2nd person" type="s"/>
+		<p name="л=3" value="rd person" type="s"/>
+		<p name="лц=л1" value="1st person" type="s"/>
+		<p name="лц=л2" value="2nd person" type="s"/>
+		<p name="лц=л3" value="3rd person" type="s"/>
+		<p name="мест-прил" value="pronoun-adjective" type="s"/>
+		<p name="накл=инф" value="infinitive" type="s"/>
+		<p name="накл=повел" value="imperative" type="s"/>
+		<p name="од=неод" value="inanimate" type="s"/>
+		<p name="од=од" value="animate" type="s"/>
+		<p name="од=од-неод" value="animate-inanimate" type="s"/>
+		<p name="пд1=пд1" value="" type="s"/>
+		<p name="пд1=пд2" value="" type="s"/>
+		<p name="пд2=пд1" value="" type="s"/>
+		<p name="пд2=пд2" value="" type="s"/>
+		<p name="пд=вин" value="accusative" type="s"/>
+		<p name="пд=дат" value="dative" type="s"/>
+		<p name="пд=им" value="nominative" type="s"/>
+		<p name="пд=косв" value="oive case" type="s"/>
+		<p name="пд=предл" value="prepositional" type="s"/>
+		<p name="пд=прямой" value="subjective case" type="s"/>
+		<p name="пд=род" value="genitive" type="s"/>
+		<p name="пд=твор" value="instrumental" type="s"/>
+		<p name="пер=нп" value="intransitive" type="s"/>
+		<p name="пер=пер" value="transitive" type="s"/>
+		<p name="притяж.мест" value="possessive pronoun" type="s"/>
+		<p name="притяж=непритяж" value="" type="s"/>
+		<p name="притяж=притяж" value="possessive" type="s"/>
+		<p name="прич=деепр" value="verbal adverb" type="s"/>
+		<p name="прич=действ" value="active participle" type="s"/>
+		<p name="прич=неприч" value="" type="s"/>
+		<p name="прич=страд" value="passive participle" type="s"/>
+		<p name="рд=жен" value="feminine" type="s"/>
+		<p name="рд=муж" value="masculine" type="s"/>
+		<p name="рд=нет" value="" type="s"/>
+		<p name="рд=ср" value="neuter" type="s"/>
+		<p name="сокращения" value="abbreviation" type="s"/>
+		<p name="стср=полож" value="positive degree" type="s"/>
+		<p name="стср=прев" value="superlative degree" type="s"/>
+		<p name="стср=ср" value="comparative degree" type="s"/>
+		<p name="т1=т1" value="" type="s"/>
+		<p name="т1=т2" value="" type="s"/>
+		<p name="т2=т1" value="" type="s"/>
+		<p name="т2=т2" value="" type="s"/>
+		<p name="форма=0" value="" type="s"/>
+		<p name="форма=3л.ед" value="3rd person sg present" type="s"/>
+		<p name="форма=инф" value="infinitive" type="s"/>
+		<p name="форма=кратк" value="short form" type="s"/>
+		<p name="форма=наст" value="present" type="s"/>
+		<p name="форма=полн" value="" type="s"/>
+		<p name="форма=прич1" value="present participle" type="s"/>
+		<p name="форма=прич2" value="past participle" type="s"/>
+		<p name="форма=прош" value="past" type="s"/>
+		<p name="форма=прош.вр" value="past" type="s"/>
+		<p name="чр=неизв" value="" type="s"/>
+		<p name="чр=артикль" value="article" type="s"/>
+		<p name="чр=возвр.мест" value="reflexive pronoun" type="s"/>
+		<p name="чр=гл" value="verb" type="s"/>
+		<p name="чр=иероглиф" value="hieroglyph" type="s"/>
+		<p name="чр=личн.мест" value="personal pronoun" type="s"/>
+		<p name="чр=межд" value="interjection" type="s"/>
+		<p name="чр=междометие" value="interjection" type="s"/>
+		<p name="чр=мест" value="pronoun" type="s"/>
+		<p name="чр=местоимение" value="pronoun" type="s"/>
+		<p name="чр=нар" value="adverb" type="s"/>
+		<p name="чр=наречие" value="adverb" type="s"/>
+		<p name="чр=предл" value="preposition" type="s"/>
+		<p name="чр=предлог" value="preposition" type="s"/>
+		<p name="чр=прил" value="adjective" type="s"/>
+		<p name="чр=сз" value="conjunction" type="s"/>
+		<p name="чр=сокр" value="abbreviation" type="s"/>
+		<p name="чр=союз" value="conjunction" type="s"/>
+		<p name="чр=субст" value="" type="s"/>
+		<p name="чр=сущ" value="noun" type="s"/>
+		<p name="чр=указат.мест" value="demonstrative pronoun" type="s"/>
+		<p name="чр=частица" value="particle" type="s"/>
+		<p name="чсл=ед" value="singular" type="s"/>
+		<p name="чсл=мн" value="plural" type="s"/>
+
+		<!-- Франц -->
+        <p name="Inf" value="infinitive" type="s"/>
+		<p name="Noun" value="noun" type="s"/>
+		<p name="Noun2" value="noun" type="s"/>
+		<p name="Adj" value="adj" type="s"/>
+        <p name="v" value="verb" type="s"/>
+        <p name="Verb" value="verb" type="s"/>
+        <p name="Verb2" value="verb" type="s"/>
+        <p name="Verb3" value="verb" type="s"/>
+        <p name="adj" value="adjective" type="s"/>
+        <p name="adv" value="adverb" type="s"/>
+        <p name="prep" value="preposition" type="s"/>
+        <p name="Prep" value="preposition" type="s"/>
+        <p name="conj" value="conjunction" type="s"/>
+        <p name="partic" value="particle" type="s"/>
+        <p name="interj" value="interjection" type="s"/>
+        <p name="abbr" value="abbreviation" type="s"/>
+
+        <p name="Pron" value="pronoun" type="s"/>
+        <p name="Art" value="article" type="s"/>
+        <p name="art_def" value="article" type="s"/>
+        <p name="art_indef" value="article" type="s"/>
+        <p name="art_part" value="article" type="s"/>
+
+
+		<p name="m" value="masculine" type="s"/>
+        <p name="f" value="feminine" type="s"/>
+        <p name="n" value="neuter" type="s"/>
+        <p name="sg" value="singular" type="s"/>
+        <p name="sing" value="singular" type="s"/>
+        <p name="pl" value="plural" type="s"/>
+        <p name="vt" value="transitive" type="s"/>
+        <p name="vi" value="intransitive" type="s"/>
+        <p name="v_aux" value="auxiliary" type="s"/>
+        <p name="v_ausil" value="auxiliary" type="s"/>
+        <p name="v_pr" value="reflexive" type="s"/>
+        <p name="v_rfl" value="reflexive" type="s"/>
+        <p name="v_refl" value="reflexive" type="s"/>
+        <p name="v_absol" value="reflexive" type="s"/>
+        <p name="v_impers" value="impersonal" type="s"/>
+
+        <p name="1sg" value="1sg" type="s"/>
+        <p name="2sg" value="2sg" type="s"/>
+        <p name="3sg" value="3sg" type="s"/>
+        <p name="1pl" value="1pl" type="s"/>
+        <p name="2pl" value="2pl" type="s"/>
+        <p name="3pl" value="3pl" type="s"/>
+
+        <p name="Pr_1sg" value="Pr_1sg" type="s"/>
+        <p name="Pr_2sg" value="Pr_2sg" type="s"/>
+        <p name="Pr_3sg" value="Pr_3sg" type="s"/>
+        <p name="Pr_1pl" value="Pr_1pl" type="s"/>
+        <p name="Pr_2pl" value="Pr_2pl" type="s"/>
+        <p name="Pr_3pl" value="Pr_3pl" type="s"/>
+
+        <p name="Fut_1sg" value="Fut_1sg" type="s"/>
+        <p name="Fut_2sg" value="Fut_2sg" type="s"/>
+        <p name="Fut_3sg" value="Fut_3sg" type="s"/>
+        <p name="Fut_1pl" value="Fut_1pl" type="s"/>
+        <p name="Fut_2pl" value="Fut_2pl" type="s"/>
+        <p name="Fut_3pl" value="Fut_3pl" type="s"/>
+
+        <p name="Imper" value="imperative" type="s"/>
+        <p name="PS" value="past" type="s"/>
+        <p name="Imp" value="imperfect" type="s"/>
+
+        <p name="PartPr" value="present participle" type="s"/>
+        <p name="PartPas" value="past participle" type="s"/>
+
+        <!-- нет в мэпе -->
+        <p name="pref" value="prefix" type="s"/>
+        <p name="Invar" value="invariant" type="s"/>
+        <p name="invar" value="invariant" type="s"/>
+        <p name="atr" value="attribute" type="s"/>
+        <p name="onomat" value="onomat" type="s"/>
+
+        <p name="Cond" value="conditional" type="s"/>
+        <p name="SubjPr" value="subjunctive present" type="s"/>
+        <p name="SubjImp" value="subjunctive past" type="s"/>
+
+        <!-- Итал -->
+        <p name="Adj compar" value="adjective" type="s"/>
+        <p name="Adj comp" value="adjective" type="s"/>
+        <p name="adj_invar" value="adjective" type="s"/>
+        <p name="adj_inv" value="adjective" type="s"/>
+        <p name="particella" value="particle" type="s"/>
+        <p name="Pron pers" value="personal pronoun" type="s"/>
+        <p name="art_determ" value="article" type="s"/>
+        <p name="art_indeterm" value="article" type="s"/>
+        <p name="escl" value="interjection" type="s"/>
+
+        <p name="PresInd" value="present" type="s"/>
+        <p name="Pres" value="present" type="s"/>
+        <p name="ImpfInd" value="imperfect" type="s"/>
+        <p name="Impf" value="imperfect" type="s"/>
+        <p name="PasR" value="past" type="s"/>
+        <p name="PartPres" value="present participle" type="s"/>
+
+        <p name="compar" value="comparative degree" type="s"/>
+        <p name="superl" value="superlative degree" type="s"/>
+
+        <p name="num_ord" value="numeral" type="s"/>
+        <p name="num_card" value="numeral" type="s"/>
+
+        <!-- нет в мэпе -->
+
+        <p name="Ger" value="gerund" type="s"/>
+        <p name="msg" value="msg" type="s"/>
+        <p name="mpl" value="mpl" type="s"/>
+        <p name="fsg" value="fsg" type="s"/>
+        <p name="sfg" value="fsg" type="s"/>
+        <p name="fpl" value="fpl" type="s"/>
+
+        <p name="compl" value="complement" type="s"/>
+        <p name="dir" value="direct" type="s"/>
+        <p name="indir" value="indirect" type="s"/>
+        <p name="ton" value="ton" type="s"/>
+        <p name="aton" value="aton" type="s"/>
+
+
+        <p name="PresCong" value="subjunctive present" type="s"/>
+        <p name="ImpfCong" value="subjunctive past" type="s"/>
+
+        <!-- Испан -->
+
+        <p name="Pron abs" value="pronoun" type="s"/>
+        <p name="Adj num" value="numeral" type="s"/>
+        <p name="Num" value="numeral" type="s"/>
+        <p name="num" value="numeral" type="s"/>
+        <p name="Part" value="participle" type="s"/>
+
+        <p name="com" value="" type="s"/>
+        <p name="amb" value="" type="s"/>
+        <p name="-ra" value="" type="s"/>
+        <p name="-se" value="" type="s"/>
+
+        <!-- нет в мэпе -->
+
+        <p name="Im" value="" type="s"/>
+        <p name="In" value="" type="s"/>
+        <p name="Pres.In" value="present" type="s"/>
+        <p name="Pr.Im.In" value="imperfect" type="s"/>
+        <p name="Pr.Indef.In" value="present indefinite" type="s"/>
+        <p name="Fut.Im.In" value="future" type="s"/>
+
+        <p name="Pres.Sub" value="subjunctive present" type="s"/>
+        <p name="Pr.Im.Sub" value="conditional past" type="s"/>
+        <p name="Fut.Im.Sub" value="conditional future" type="s"/>
+        <p name="Pot.Imp" value="conditional imperfect" type="s"/>
+        <p name="Pot.Im" value="conditional imperfect" type="s"/>
+        <p name="Imperat" value="imperative" type="s"/>
+
+
+        <!-- Нем -->
+        <p name="N" value="nominative" type="s"/>
+        <p name="G" value="genitive" type="s"/>
+        <p name="D" value="dative" type="s"/>
+        <p name="A" value="accusative" type="s"/>
+
+        <p name="adj_pred" value="adjective" type="s"/>
+        <p name="part_adj" value="adjective" type="s"/>
+        <p name="КФ" value="short form" type="s"/>
+        <p name="Кратк.ф." value="short form" type="s"/>
+
+        <p name="sub" value="adjective" type="s"/>
+        <p name="Sub" value="adjective" type="s"/>
+        <p name="Pron dem" value="demonstrative pronoun" type="s"/>
+        <p name="Pron dem1" value="demonstrative pronoun" type="s"/>
+        <p name="Pron poss" value="posessive pronoun" type="s"/>
+        <p name="pron" value="pronoun" type="s"/>
+        <p name="pron_dem" value="demonstrative pronoun" type="s"/>
+        <p name="pos" value="positive degree" type="s"/>
+        <p name="comp" value="comparative degree" type="s"/>
+        <p name="super" value="superlative degree" type="s"/>
+
+        <p name="Adv1" value="adverb" type="s"/>
+        <p name="part_adv" value="adverb" type="s"/>
+        <p name="cj" value="conjunction" type="s"/>
+        <p name="int" value="interjection" type="s"/>
+        <p name="prp" value="preposition" type="s"/>
+        <p name="prtc" value="particle" type="s"/>
+
+        <p name="Past" value="past" type="s"/>
+        <p name="Pres" value="present" type="s"/>
+        <p name="vrefl" value="reflexive" type="s"/>
+
+        <p name="сравн._КФ" value="comparative short" type="s"/>
+        <p name="сравн._A" value="comparative degree" type="s"/>
+        <p name="сравн._B" value="comparative degree" type="s"/>
+        <p name="сравн._C" value="comparative degree" type="s"/>
+        <p name="прев._КФ" value="superlative short" type="s"/>
+        <p name="прев._A" value="superlative degree" type="s"/>
+        <p name="прев._B" value="superlative degree" type="s"/>
+        <p name="прев._C" value="superlative degree" type="s"/>
+
+        <p name="сравн=сравн" value="comparative degree" type="s"/>
+        <p name="сравн=несравн" value="" type="s"/>
+        <p name="стср=непрев" value="" type="s"/>
+        <p name="ф1" value="I" type="s"/>
+        <p name="ф2" value="II" type="s"/>
+
+
+        <p name="II_КФ" value="II short" type="s"/>
+        <p name="II_A" value="II" type="s"/>
+        <p name="II_B" value="II" type="s"/>
+        <p name="II_C" value="II" type="s"/>
+        <p name="I_КФ" value="I short" type="s"/>
+        <p name="I_A" value="I" type="s"/>
+        <p name="I_B" value="I" type="s"/>
+        <p name="I_C" value="I" type="s"/>
+
+        <!-- нет в мэпе -->
+
+        <p name="Komp" value="komp" type="s"/>
+
+        <p name="A_m_N" value="MN" type="s"/>
+        <p name="A_m_G" value="MG" type="s"/>
+        <p name="A_m_D" value="MD" type="s"/>
+        <p name="A_m_A" value="MA" type="s"/>
+        <p name="A_f_N" value="FN" type="s"/>
+        <p name="A_f_G" value="FG" type="s"/>
+        <p name="A_f_D" value="FD" type="s"/>
+        <p name="A_f_A" value="FA" type="s"/>
+        <p name="A_n_N" value="NN" type="s"/>
+        <p name="A_n_G" value="NG" type="s"/>
+        <p name="A_n_D" value="ND" type="s"/>
+        <p name="A_n_A" value="NA" type="s"/>
+        <p name="A_pl_N" value="PN" type="s"/>
+        <p name="A_pl_G" value="PG" type="s"/>
+        <p name="A_pl_D" value="PD" type="s"/>
+        <p name="A_pl_A" value="PA" type="s"/>
+        <p name="B" value="" type="s"/>
+        <p name="C" value="" type="s"/>
+
+        <p name="Conj" value="subjunctive" type="s"/>
+        <p name="Imper" value="imperfect" type="s"/>
+        <p name="вежл" value="polite" type="s"/>
+        <p name="name" value="name" type="s"/>
+        <p name="Name" value="name" type="s"/>
+        <p name="Fam" value="family" type="s"/>
+        <p name="fam" value="family" type="s"/>
+        <p name="geo" value="geo" type="s"/>
+        <p name="Geo" value="geo" type="s"/>
+        <p name="Prop" value="prop" type="s"/>
+        <p name="prop" value="prop" type="s"/>
+       
+        <p name="Invar1" value="invariant" type="s"/>
+
+        <p name="vimp" value="impersonal" type="s"/>
+        <p name="mod" value="modal" type="s"/>
+
+
+
+	</o>
+</root>

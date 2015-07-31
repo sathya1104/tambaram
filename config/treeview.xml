@@ -1,0 +1,11 @@
+<root>
+
+<o type="treeview" id="tvResults">
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="treeview" id="tv_dicts">
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+</root>

@@ -1,0 +1,344 @@
+<root>
+
+<o type="static" id="ifont">
+	<p name="text" value="iface_font" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="6" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+	<p name="bmargin" value="16" type="n"/>
+</o>
+<o type="static" id="afont">
+	<p name="text" value="art_font" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="6" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+	<p name="bmargin" value="16" type="n"/>
+</o>
+<o type="static" id="lang">
+	<p name="text" value="iface_lang" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="6" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+	<p name="bmargin" value="16" type="n"/>
+</o>
+
+<o type="static" id="udicts">
+	<p name="text" value="dict_tree" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+</o>
+
+<o type="static" id="searchHK">
+	<p name="text" value="searchHK" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="6" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+	<p name="bmargin" value="16" type="n"/>
+</o>
+
+<o type="static" id="searchAlphaHK">
+	<p name="text" value="searchAlphaHK" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="6" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+	<p name="bmargin" value="16" type="n"/>
+</o>
+
+<o type="static" id="searchPopupHK">
+	<p name="text" value="searchQuickHK" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="6" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+	<p name="bmargin" value="16" type="n"/>
+</o>
+<o type="static" id="searchMouseHK">
+	<p name="text" value="searchMouseHK" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="tmargin" value="16" type="n"/>
+	<p name="bmargin" value="2" type="n"/>
+</o>
+<o type="static" id="searchKbdHK">
+	<p name="text" value="searchKbdHK" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="tmargin" value="16" type="n"/>
+	<p name="bmargin" value="2" type="n"/>
+</o>
+
+<o type="static" id="dictName">
+	<p name="text" value="dictName" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+</o>
+<o type="static" id="dictLang1">
+	<p name="text" value="dictLang1" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+</o>
+<o type="static" id="dictLang2">
+	<p name="text" value="dictLang2" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+</o>
+<o type="static" id="dictAuthor">
+	<p name="text" value="dictAuthor" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+</o>
+
+<o type="static" id="sortHistory">
+	<p name="text" value="sortHistory" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="4" type="n"/>
+	<p name="tmargin" value="10" type="n"/>
+</o>
+<o type="static" id="sortBookmarks">
+	<p name="text" value="sortBookmarks" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="4" type="n"/>
+	<p name="tmargin" value="10" type="n"/>
+</o>
+
+<o type="static" id="act_sn">
+	<p name="text" value="act_sn" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_lmid">
+	<p name="text" value="act_lmid" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_login">
+	<p name="text" value="act_login" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_pass">
+	<p name="text" value="act_pass" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_pass2">
+	<p name="text" value="act_pass" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="40" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_birth">
+	<p name="text" value="act_birth" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="40" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_birth2">
+	<p name="text" value="act_birth" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_lastname">
+	<p name="text" value="act_lastname" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_firstname">
+	<p name="text" value="act_firstname" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_midname">
+	<p name="text" value="act_midname" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_country">
+	<p name="text" value="act_country" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="40" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_city">
+	<p name="text" value="act_city" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="40" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_address">
+	<p name="text" value="act_address" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_mail">
+	<p name="text" value="act_mail" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="40" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_phone">
+	<p name="text" value="act_phone" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="40" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+
+<o type="static" id="act_newlogin">
+	<p name="text" value="act_newlogin" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_newpass">
+	<p name="text" value="act_newpass" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_newpass2">
+	<p name="text" value="act_newpass" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="40" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+
+<o type="static" id="act_phone2">
+	<p name="text" value="act_phone" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_country2">
+	<p name="text" value="act_country" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_city2">
+	<p name="text" value="act_city" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_mail2">
+	<p name="text" value="act_contact_mail" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+
+
+<o type="static" id="act_company">
+	<p name="text" value="act_company" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_contact_name">
+	<p name="text" value="act_contact_name" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_contact_mail">
+	<p name="text" value="act_contact_mail" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_inn">
+	<p name="text" value="act_inn" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="40" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_kpp">
+	<p name="text" value="act_kpp" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="40" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_bank_name">
+	<p name="text" value="act_bank_name" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_bank_loc">
+	<p name="text" value="act_bank_loc" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="40" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_corr">
+	<p name="text" value="act_corr_account" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="40" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_bik">
+	<p name="text" value="act_bik" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="40" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_ru_account">
+	<p name="text" value="act_ru_account" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="40" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_foreign_account">
+	<p name="text" value="act_foreign_account" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="40" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+
+
+<o type="static" id="act_register_desc1">
+	<p name="text" value="act_register_desc1" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_register_desc2">
+	<p name="text" value="act_register_desc2" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_register_desc3">
+	<p name="text" value="act_register_desc3" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_register_desc4">
+	<p name="text" value="act_register_desc4" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="10" type="n"/>
+	<p name="tmargin" value="4" type="n"/>
+</o>
+<o type="static" id="act_type_desc1">
+	<p name="text" value="act_type_desc1" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="4" type="n"/>
+	<p name="tmargin" value="10" type="n"/>
+</o>
+<o type="static" id="act_type_desc2">
+	<p name="text" value="act_type_desc2" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="4" type="n"/>
+	<p name="tmargin" value="10" type="n"/>
+</o>
+
+<o type="static" id="act_code_desc">
+	<p name="text" value="act_code_desc" type="text"/>
+	<p name="font" value="gui_lr" type="font"/>
+	<p name="lmargin" value="4" type="n"/>
+	<p name="tmargin" value="10" type="n"/>
+</o>
+
+</root>

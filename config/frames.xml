@@ -1,0 +1,162 @@
+<root>
+
+<o type="frame" id="frx">
+	<p name="bgcolor" value="16708078" type="n"/>
+	
+	<p name="Title.BackImage" value="frm_title1" type="image" />
+	<p name="Title.Font" value="caption" type="font" />
+<!--
+	<p name="Title.Caption.ActiveColor" value="12405302" type="n" />
+	<p name="Title.Caption.InactiveColor" value="16767945" type="n" />
+-->
+
+	<p name="Title.Caption.ActiveColor" value="16777215" type="n" />
+	<p name="Title.Caption.InactiveColor" value="16767945" type="n" />
+
+	<p name="Title.BackActiveColor1" value="16380398" type="n" />
+	<p name="Title.BackInactiveColor1" value="0" type="n" />
+	<p name="Title.BackActiveColor2" value="16380398" type="n" />
+	<p name="Title.BackInactiveColor2" value="0" type="n" />
+
+	<p name="Title.ButtonsImage" value="frm_buttons1" type="image" />
+
+    
+	<p name="Frame.Border.Image" value="frm_border1" type="image" />
+	<p name="Frame.Border.ImageMaskColor" value="16777215" type="n" />
+
+	<p name="Frame.Border.Top.Size" value="7" type="n" />
+	<p name="Frame.Border.Left.Size" value="10" type="n" />
+	<p name="Frame.Border.Right.Size" value="10" type="n" />
+	<p name="Frame.Border.Bottom.Size" value="35" type="n" />
+	<p name="Frame.Border.Top.Extend" value="9" type="n" />
+	<p name="Frame.Border.Left.Extend" value="3" type="n" />
+	<p name="Frame.Border.Right.Extend" value="3" type="n" />
+	<p name="Frame.Border.Bottom.Extend" value="11" type="n" />
+
+	<p name="Margin.Border.Image" value="frm_margin1" type="image" />
+	<p name="Margin.Border.ImageMaskColor" value="255" type="n" />
+
+	<p name="Margin.Border.Top.Size" value="0" type="n" />
+	<p name="Margin.Border.Left.Size" value="0" type="n" />
+	<p name="Margin.Border.Right.Size" value="0" type="n" />
+	<p name="Margin.Border.Bottom.Size" value="0" type="n" />
+	<p name="Margin.Border.Top.Extend" value="3" type="n" />
+	<p name="Margin.Border.Left.Extend" value="3" type="n" />
+	<p name="Margin.Border.Right.Extend" value="3" type="n" />
+	<p name="Margin.Border.Bottom.Extend" value="3" type="n" />
+
+	<!--
+	<p name="Title.Border.Image" value="titlebr" type="image" />
+	<p name="Title.Border.ImageMaskColor" value="255" type="n" />
+-->
+	<p name="Title.Border.Top.Size" value="0" type="n" />
+	<p name="Title.Border.Left.Size" value="0" type="n" />
+	<p name="Title.Border.Right.Size" value="0" type="n" />
+	<p name="Title.Border.Bottom.Size" value="0" type="n" />
+	<p name="Title.Border.Top.Extend" value="9" type="n" />
+	<p name="Title.Border.Bottom.Extend" value="11" type="n" />
+	<!--
+	<p name="Title.Border.Top.Extend" value="3" type="n" />
+	<p name="Title.Border.Left.Extend" value="3" type="n" />
+	<p name="Title.Border.Right.Extend" value="3" type="n" />
+	<p name="Title.Border.Bottom.Extend" value="3" type="n" />
+	-->
+</o>
+                 
+<o type="frame" id="frx2">
+	<p name="bgcolor" value="16380398" type="n"/>
+	
+	<p name="Title.BackImage" value="frm_title2" type="image" />
+	<p name="Title.Font" value="caption" type="font" />
+	<p name="Title.Caption.ActiveColor" value="12405302" type="n" />
+	<p name="Title.Caption.InactiveColor" value="16767945" type="n" />
+<!--
+	<p name="Title.Caption.ActiveColor" value="9726020" type="n" />
+	<p name="Title.Caption.InactiveColor" value="13150349" type="n" />
+-->
+	<p name="Title.BackActiveColor1" value="16380398" type="n" />
+	<p name="Title.BackInactiveColor1" value="0" type="n" />
+	<p name="Title.BackActiveColor2" value="16380398" type="n" />
+	<p name="Title.BackInactiveColor2" value="0" type="n" />
+
+	<p name="Title.ButtonsImage" value="frm_buttons2" type="image" />
+
+    
+	<p name="Frame.Border.Image" value="frm_border2" type="image" />
+	<p name="Frame.Border.ImageMaskColor" value="16777215" type="n" />
+
+	<p name="Frame.Border.Top.Size" value="1" type="n" />
+	<p name="Frame.Border.Left.Size" value="1" type="n" />
+	<p name="Frame.Border.Right.Size" value="1" type="n" />
+	<p name="Frame.Border.Bottom.Size" value="1" type="n" />
+	<p name="Frame.Border.Top.Extend" value="3" type="n" />
+	<p name="Frame.Border.Left.Extend" value="3" type="n" />
+	<p name="Frame.Border.Right.Extend" value="3" type="n" />
+	<p name="Frame.Border.Bottom.Extend" value="3" type="n" />
+
+	<p name="Margin.Border.Image" value="frm_margin2" type="image" />
+	<p name="Margin.Border.ImageMaskColor" value="255" type="n" />
+
+	<p name="Margin.Border.Top.Size" value="0" type="n" />
+	<p name="Margin.Border.Left.Size" value="0" type="n" />
+	<p name="Margin.Border.Right.Size" value="0" type="n" />
+	<p name="Margin.Border.Bottom.Size" value="0" type="n" />
+	<p name="Margin.Border.Top.Extend" value="3" type="n" />
+	<p name="Margin.Border.Left.Extend" value="3" type="n" />
+	<p name="Margin.Border.Right.Extend" value="3" type="n" />
+	<p name="Margin.Border.Bottom.Extend" value="3" type="n" />
+
+	<p name="Title.Border.Top.Size" value="0" type="n" />
+	<p name="Title.Border.Left.Size" value="0" type="n" />
+	<p name="Title.Border.Right.Size" value="0" type="n" />
+	<p name="Title.Border.Bottom.Size" value="0" type="n" />
+
+	<p name="Client.Border.Image" value="frm_client2" type="image" />
+	<p name="Client.Border.ImageMaskColor" value="255" type="n" />
+
+	<p name="Client.Border.Top.Size" value="3" type="n" />
+	<p name="Client.Border.Left.Size" value="3" type="n" />
+	<p name="Client.Border.Right.Size" value="3" type="n" />
+	<p name="Client.Border.Bottom.Size" value="3" type="n" />
+	<p name="Client.Border.Top.Extend" value="3" type="n" />
+	<p name="Client.Border.Left.Extend" value="3" type="n" />
+	<p name="Client.Border.Right.Extend" value="3" type="n" />
+	<p name="Client.Border.Bottom.Extend" value="3" type="n" />
+</o>
+
+<o type="frame" id="frx3">
+	<p name="bgcolor" value="16380398" type="n"/>
+	
+	<p name="Title.BackActiveColor1" value="16380398" type="n" />
+	<p name="Title.BackInactiveColor1" value="0" type="n" />
+	<p name="Title.BackActiveColor2" value="16380398" type="n" />
+	<p name="Title.BackInactiveColor2" value="0" type="n" />
+
+	<p name="Margin.Border.Image" value="frm_margin3" type="image" />
+	<p name="Margin.Border.ImageMaskColor" value="255" type="n" />
+
+	<p name="Margin.Border.Top.Size" value="2" type="n" />
+	<p name="Margin.Border.Left.Size" value="2" type="n" />
+	<p name="Margin.Border.Right.Size" value="2" type="n" />
+	<p name="Margin.Border.Bottom.Size" value="2" type="n" />
+	<p name="Margin.Border.Top.Extend" value="3" type="n" />
+	<p name="Margin.Border.Left.Extend" value="3" type="n" />
+	<p name="Margin.Border.Right.Extend" value="3" type="n" />
+	<p name="Margin.Border.Bottom.Extend" value="3" type="n" />
+
+	<p name="Client.Border.Top.Size" value="2" type="n" />
+	<p name="Client.Border.Left.Size" value="2" type="n" />
+	<p name="Client.Border.Right.Size" value="2" type="n" />
+	<p name="Client.Border.Bottom.Size" value="2" type="n" />
+	<p name="Client.Border.Top.Extend" value="3" type="n" />
+	<p name="Client.Border.Left.Extend" value="3" type="n" />
+	<p name="Client.Border.Right.Extend" value="3" type="n" />
+	<p name="Client.Border.Bottom.Extend" value="3" type="n" />
+
+</o>
+
+<o type="frame" id="frame2">
+	<p name="Title.Font" value="caption" type="font" />
+</o>
+
+</root>

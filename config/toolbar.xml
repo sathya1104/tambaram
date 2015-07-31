@@ -1,0 +1,84 @@
+<root>
+
+<o type="toolbar" id="tb0">
+	<p name="datasrc" value="main_menu" type="tbcontrol" />
+	<p name="font" value="gui_lr" type="font" />
+	<p name="hbg" value="skin_bg" type="image" />
+	<p name="vbg" value="skin_bg" type="image" />
+</o>
+
+<o type="toolbar" id="tb1">
+	<p name="datasrc" value="standard" type="tbcontrol" />
+	<p name="font" value="gui_lr" type="font" />
+	<p name="hbg" value="skin_bg" type="image" />
+	<p name="vbg" value="skin_bg" type="image" />
+</o>
+
+<o type="toolbar" id="tb2">
+	<p name="datasrc" value="formatting" type="tbcontrol" />
+	<p name="font" value="gui_lr" type="font" />
+	<p name="hbg" value="skin_bg" type="image" />
+	<p name="vbg" value="skin_bg" type="image" />
+</o>
+
+<o type="toolbar" id="tb3">
+	<p name="datasrc" value="navigation" type="tbcontrol" />
+	<p name="font" value="gui_lr" type="font" />
+	<p name="hbg" value="skin_bg" type="image" />
+	<p name="vbg" value="skin_bg" type="image" />
+</o>
+
+<o type="toolbar" id="tb4">
+	<p name="datasrc" value="service" type="tbcontrol" />
+	<p name="font" value="gui_lr" type="font" />
+	<p name="hbg" value="skin_bg" type="image" />
+	<p name="vbg" value="skin_bg" type="image" />
+</o>
+
+<o type="toolbar" id="tb5">
+	<p name="datasrc" value="dicts_tb" type="tbcontrol" />
+	<p name="font" value="gui_lr" type="font" />
+	<p name="hbg" value="skin_bg" type="image" />
+	<p name="vbg" value="skin_bg" type="image" />
+</o>
+
+<o type="toolbar" id="tb8">
+	<p name="datasrc" value="cyr_tb" type="tbcontrol" />
+	<p name="font" value="gui_lr" type="font" />
+	<p name="hbg" value="skin_bg" type="image" />
+	<p name="vbg" value="skin_bg" type="image" />
+</o>
+<o type="toolbar" id="tb6">
+	<p name="datasrc" value="latin_tb" type="tbcontrol" />
+	<p name="font" value="gui_lr" type="font" />
+	<p name="hbg" value="skin_bg" type="image" />
+	<p name="vbg" value="skin_bg" type="image" />
+</o>
+<o type="toolbar" id="tb9">
+	<p name="datasrc" value="phon_tb" type="tbcontrol" />
+	<p name="font" value="gui_lr" type="font" />
+	<p name="hbg" value="skin_bg" type="image" />
+	<p name="vbg" value="skin_bg" type="image" />
+</o>
+<o type="toolbar" id="tb7">
+	<p name="datasrc" value="symbols_tb" type="tbcontrol" />
+	<p name="font" value="gui_lr" type="font" />
+	<p name="hbg" value="skin_bg" type="image" />
+	<p name="vbg" value="skin_bg" type="image" />
+</o>
+
+<o type="toolbar" id="tb_editor">
+	<p name="datasrc" value="editor" type="tbcontrol" />
+	<p name="font" value="gui_lr" type="font" />
+	<p name="hbg" value="skin_bg" type="image" />
+	<p name="vbg" value="skin_bg" type="image" />
+</o>
+
+<o type="toolbar" id="tb_popup_trans">
+	<p name="datasrc" value="popup_trans" type="tbcontrol" />
+	<p name="font" value="gui_lr" type="font" />
+	<p name="hbg" value="skin_bg" type="image" />
+	<p name="vbg" value="skin_bg" type="image" />
+</o>
+
+</root>

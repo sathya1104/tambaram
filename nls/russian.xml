@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root>
+	<o type="text" id="application">
+		<p name="text" value="Oxford Dictionary 6"/>
+	</o>
+	<o type="text" id="buy_url">
+		<p name="text" value="http://mswindows-dictionaries.penreader.com/ru/buy.html"/>
+	</o>
+	<o type="text" id="support_phone">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="support_mail">
+		<p name="text" value="www.support.penreader.com"/>
+	</o>
+	<o type="text" id="save">
+		<p name="text" value="Сохранить"/>
+	</o>
+	<o type="text" id="about_info">
+		<p name="text" value=
+"CловоЕд® электронный словарь
+Версия: 6.4
+
+Copyright&#x00A9; 1996-2007 Paragon Software Group&#x00AE;. Все права защищены
+
+
+
+Лицензией на данный продукт обладает:
+Имя: %
+Организация: % 
+Лицензионный номер: %
+
+Предупреждение: Этот программный продукт защищен Российским Законом об авторских правах и соответствующими международными законами. Любое копирование данного программного продукта, выполненное не в целях персонального использования, является нарушением закона
+"/>
+	</o>
+
+	<o type="text" id="about_info_HTML">
+		<p name="text" value="
+&lt;body style=&quot;font-family: Tahoma; font-size: 8pt;&quot;&gt;
+Oxford Dictionary&#x00AE; электронный словарь&lt;br&gt;
+Версия: 6.4&lt;br&gt;&lt;br&gt;
+
+Copyright&#x00A9; 1996-2007 Paragon Software Group&#x00AE;.&lt;br&gt;
+Все права защищены&lt;br&gt;&lt;br&gt;
+
+
+
+Лицензией на данный продукт обладает:&lt;br&gt;
+Имя: %&lt;br&gt;
+Организация: %&lt;br&gt;&lt;br&gt;
+
+Установленные словари: &lt;pre&gt;%&lt;/pre&gt;
+&lt;br&gt;&lt;br&gt;
+Предупреждение: Этот программный продукт защищен Российским Законом об авторских правах и соответствующими международными законами. Любое копирование данного программного продукта, выполненное не в целях персонального использования, является нарушением закона
+&lt;body&gt;
+"/>
+	</o>
+	<o type="text" id="about_info_text">
+		<p name="text" value="
+Oxford Dictionary&#x00AE; электронный словарь
+Версия: 6.4
+
+Copyright&#x00A9; 1996-2007 Paragon Software Group&#x00AE;.
+Все права защищены
+
+
+
+Лицензией на данный продукт обладает:
+Имя: %
+Организация: %
+
+Установленные словари: 
+%
+Предупреждение: Этот программный продукт защищен Российским Законом об авторских правах и соответствующими международными законами. Любое копирование данного программного продукта, выполненное не в целях персонального использования, является нарушением закона
+
+"/>
+	</o>
+	<o type="text" id="already_registered">
+		<p name="text" value="Этот продукт уже зарегистрирован"/>
+	</o>
+	<o type="text" id="not_registered">
+		<p name="text" value="Не зарегистрирован"/>
+	</o>
+	<o type="text" id="word_count">
+		<p name="text" value="% слов"/>
+	</o>
+
+	<o type="text" id="speech_not_registered">
+		<p name="text" value="Вы используете незарегистрированную версию звукового модуля! Зарегистрировать его сейчас?"/>
+	</o>
+	<o type="text" id="duplicatedDicName">
+		<p name="text" value="Словарь с таким названием и направлением перевода уже существует"/>
+	</o>
+	<o type="text" id="createDictFailed">
+		<p name="text" value="Не удалось создать словарь! В названии словаря не могут содержаться символы &lt; &gt; : / \ ? *"/>
+	</o>
+	<o type="text" id="cantStartSearch">
+		<p name="text" value="Не удалось запустить поиск. Нет ни одного активного словаря"/>
+	</o>
+	<o type="text" id="fillForm">
+		<p name="text" value="Заполните все обязательные поля"/>
+	</o>
+	<o type="text" id="sel_user_dict">
+		<p name="text" value="Выберите пользовательский словарь"/>
+	</o>
+	<o type="text" id="sel_dict">
+		<p name="text" value="Выбор словаря"/>
+	</o>
+	<o type="text" id="noDictHelp">
+		<p name="text" value="Описание словаря &quot;%&quot; в справочной системе Oxford Dictionary отсутствует"/>
+	</o>
+	<o type="text" id="noAbbrHelp">
+		<p name="text" value="В справочной системе Oxford Dictionary отсутствует информация о сокращениях, используемых в словаре &quot;%&quot;"/>
+	</o>
+	<o type="text" id="noTranscriptHelp">
+		<p name="text" value="В справочной системе Oxford Dictionary отсутствует информация о транскрипции, используемой в словаре &quot;%&quot;&quot;"/>
+	</o>
+	<o type="text" id="noIrregHelp">
+		<p name="text" value="В справочной системе Oxford Dictionary отсутствует информация о словах, изменяющихся не по правилам, встречающихся  в словаре &quot;%&quot;"/>
+	</o>
+	<o type="text" id="noContextHelp">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="act_code_desc">
+		<p name="text" value="Введите регистрационный код и нажмите на кнопку &quot;ОК&quot;. Если у Вас нет регистрационного кода, нажмите на кнопку &quot;Купить&quot;"/>
+	</o>
+	<o type="text" id="reg_alert"> <!--новый кусок про регистрацию-->
+		<p name="text" value="Чем дольше Вы используете незарегистрированную версию словаря, тем чаще вместо перевода слова, Вы будете видеть это сообщение! %Зарегистрировать% сейчас?"/>
+        </o>
+	<o type="text" id="dictUnavailable2">
+		<p name="text" value="Словарь &quot;%&quot;, расположенный в папке %, недоступен. Пожалуйста, закройте все приложения, использующие файлы из этой папки, для продолжения работы со словарем."/>
+	</o>
+	<o type="text" id="newDictFound">
+		<p name="text" value="На Вашем компьютере установлен словарь %. Вы хотите добавить его словарные базы в %?"/>
+	</o>
+	<o type="text" id="importComplete">
+		<p name="text" value="Импорт словаря успешно завершен!"/>
+	</o>
+	<o type="text" id="exportComplete">
+		<p name="text" value="Экспорт словаря успешно завершен!"/>
+	</o>
+
+	<o type="text" id="examples">
+		<p name="text" value="ПРИМЕРЫ"/>
+	</o>
+	<o type="text" id="notfound">
+		<p name="text" value="% слово &quot;%&quot; не найдено!"/>
+	</o>
+	<o type="text" id="notfound2">
+		<p name="text" value="В направлении перевода % слово &quot;%&quot; не найдено!"/>
+	</o>
+	<o type="text" id="articles_found">
+		<p name="text" value="Найдено % статей и % примеров"/>
+	</o>
+	<o type="text" id="no_user_dict">
+		<p name="text" value="Коллекция &quot;%&quot; не имеет ни одного пользовательского словаря. Создать?"/>
+	</o>
+	<o type="text" id="no_user_dict2">
+		<p name="text" value="% нет ни одного пользовательского словаря. Создать?"/>
+	</o>
+	<o type="text" id="prompt_close_editor">
+		<p name="text" value="Изменения в статье &quot;%&quot; не сохранены. Сохранить?"/>
+	</o>
+	<o type="text" id="register">
+		<p name="text" value="Купить"/>
+	</o>
+	<o type="text" id="overInet">
+		<p name="text" value="Через Интернет (рекомендуется)"/>
+	</o>
+	<o type="text" id="byEmail">
+		<p name="text" value="С помощью электронной почты"/>
+	</o>
+	<o type="text" id="byFax">
+		<p name="text" value="По почте или факсу"/>
+	</o>
+	<o type="text" id="byPhone">
+		<p name="text" value="По телефону"/>
+	</o>
+	<o type="text" id="regJur">
+		<p name="text" value="Юридическое лицо"/>
+	</o>
+	<o type="text" id="regPhys">
+		<p name="text" value="Физическое лицо"/>
+	</o>
+	<o type="text" id="smTagLookup">
+		<p name="text" value="Перевести"/>
+	</o>
+	<o type="text" id="smTagSearch">
+		<p name="text" value="Найти в словаре"/>
+	</o>
+	<o type="text" id="smTagSpeech">
+		<p name="text" value="Произнести"/>
+	</o>
+	<o type="text" id="smTagParadigm">
+		<p name="text" value="Слофовормы"/>
+	</o>
+	<o type="text" id="edit_head">
+		<p name="text" value="Заголовок"/>
+	</o>
+	<o type="text" id="edit_trans">
+		<p name="text" value="Перевод"/>
+	</o>
+	<o type="text" id="edit_phon">
+		<p name="text" value="Транскрипция"/>
+	</o>
+	<o type="text" id="edit_examp">
+		<p name="text" value="Пример употребления"/>
+	</o>
+	<o type="text" id="edit_stress">
+		<p name="text" value="Ударение"/>
+	</o>
+	<o type="text" id="searching">
+		<p name="text" value="Поиск..."/>
+	</o>
+	<o type="text" id="searching_info">
+		<p name="text" value="Выполняется полнотекстовый поиск. Пожалуйста, подождите..."/>
+	</o>
+	<o type="text" id="iface_font">
+		<p name="text" value="Шрифт интерфейса:"/>
+	</o>
+	<o type="text" id="art_font">
+		<p name="text" value="Шрифт словарной статьи:"/>
+	</o>
+	<o type="text" id="iface_lang">
+		<p name="text" value="Язык интерфейса:"/>
+	</o>
+	<o type="text" id="dict_tree">
+		<p name="text" value="Словари:"/>
+	</o>
+	<o type="text" id="newDicCaption">
+		<p name="text" value="Создание нового словаря"/>
+	</o>
+	<o type="text" id="dictName">
+		<p name="text" value="Название словаря:"/>
+	</o>
+	<o type="text" id="dictLang1">
+		<p name="text" value="Исходный язык:"/>
+	</o>
+	<o type="text" id="dictLang2">
+		<p name="text" value="Язык перевода:"/>
+	</o>
+	<o type="text" id="dictAuthor">
+		<p name="text" value="Автор словаря:"/>
+	</o>
+	<o type="text" id="indexing">
+		<p name="text" value="Подготовка..."/>
+	</o>
+	<o type="text" id="indexing_info">
+		<p name="text" value="Идет подготовка словарной базы. Пожалуйста, подождите..."/>
+	</o>
+	<o type="text" id="importing">
+		<p name="text" value="Импорт словаря..."/>
+	</o>
+	<o type="text" id="importing_info">
+		<p name="text" value="Выполняется перенос словарной базы в новый пользовательский словарь. Пожалуйста, подождите..."/>
+	</o>
+	<o type="text" id="exporting">
+		<p name="text" value="Экспорт словаря..."/>
+	</o>
+	<o type="text" id="exporting_info">
+		<p name="text" value="Выполняется сохранение словарной базы в html-файл. Пожалуйста, подождите..."/>
+	</o>
+	<o type="text" id="register_progress">
+		<p name="text" value="Регистрация..."/>
+	</o>
+	<o type="text" id="register_progress_info">
+		<p name="text" value="Выполняется регистрация через Интернет. Пожалуйста, подождите..."/>
+	</o>
+	<o type="text" id="isNotUserDict">
+		<p name="text" value="Выбранный словарь не является пользовательским словарем Мультилекс версии 3.5 или 4.0!"/>
+	</o>
+	<o type="text" id="ok">
+		<p name="text" value="OK"/>
+	</o>
+	<o type="text" id="cancel">
+		<p name="text" value="Отмена"/>
+	</o>
+	<o type="text" id="reset">
+		<p name="text" value="Сбросить"/>
+	</o>
+	<o type="text" id="apply">
+		<p name="text" value="Применить"/>
+	</o>
+	<o type="text" id="ignore">
+		<p name="text" value="Пропустить"/>
+	</o>
+	<o type="text" id="abort">
+		<p name="text" value="Прекратить"/>
+	</o>
+	<o type="text" id="retry">
+		<p name="text" value="Повторить"/>
+	</o>
+	<o type="text" id="hlp">
+		<p name="text" value="Справка"/>
+	</o>
+	<o type="text" id="yes">
+		<p name="text" value="Да"/>
+	</o>
+	<o type="text" id="no">
+		<p name="text" value="Нет"/>
+	</o>
+	<o type="text" id="up">
+		<p name="text" value="Вверх"/>
+	</o>
+	<o type="text" id="down">
+		<p name="text" value="Вниз"/>
+	</o>
+	<o type="text" id="about_dict">
+		<p name="text" value="О словаре..."/>
+	</o>
+	<o type="text" id="del_dict">
+		<p name="text" value="Удалить словарь"/>
+	</o>
+	<o type="text" id="remove">
+		<p name="text" value="Удалить..."/>
+	</o>
+	<o type="text" id="sure_dict_del">
+		<p name="text" value="Вы действительно хотите удалить этот словарь?"/>
+	</o>
+	<o type="text" id="sure_art_del">
+		<p name="text" value="Вы действительно хотите удалить эту словарную статью?"/>
+	</o>
+	<o type="text" id="new_dict">
+		<p name="text" value="Создать..."/>
+	</o>
+	<o type="text" id="create_dict">
+		<p name="text" value="Создать словарь"/>
+	</o>
+	<o type="text" id="create">
+		<p name="text" value="Создать"/>
+	</o>
+	<o type="text" id="sortHistory">
+		<p name="text" value="Сортировка истории просмотра:"/>
+	</o>
+	<o type="text" id="sortBookmarks">
+		<p name="text" value="Сортировка закладок пользователя:"/>
+	</o>
+	<o type="text" id="sort_tm">
+		<p name="text" value="по времени добавления"/>
+	</o>
+	<o type="text" id="sort_al">
+		<p name="text" value="по алфавиту"/>
+	</o>
+	<o type="text" id="show_in_tray">
+		<p name="text" value="Показывать значок Oxford Dictionary в области уведомлений панели задач"/>
+	</o>
+	<o type="text" id="min_to_tray">
+		<p name="text" value="Прятать значок Oxford Dictionary при минимизации"/> <!--вместо сворачивать в область уведомления задач-->
+	</o>
+	<o type="text" id="set_autorun">
+		<p name="text" value="Запускать Oxford Dictionary вместе с Windows"/>
+	</o>
+	<o type="text" id="main_menu">
+		<p name="text" value="Главное меню"/>
+	</o>
+	<o type="text" id="standard">
+		<p name="text" value="Стандартная"/>
+	</o>
+	<o type="text" id="navigation">
+		<p name="text" value="Навигация"/> <!--поиск?-->
+	</o>
+	<o type="text" id="service">
+		<p name="text" value="Сервис"/>
+	</o>
+	<o type="text" id="formatting">
+		<p name="text" value="Форматирование"/>
+	</o>
+	<o type="text" id="toolbar_dicts">
+		<p name="text" value="Книжная полка"/>
+	</o>
+	<o type="text" id="toolbarcyr">
+		<p name="text" value="Русский алфавит"/>
+	</o>
+	<o type="text" id="toolbarlat">
+		<p name="text" value="Буквы с диакритическими знаками"/>
+	</o>
+	<o type="text" id="toolbarphon">
+		<p name="text" value="Знаки транскрипции"/>
+	</o>
+	<o type="text" id="toolbarsym">
+		<p name="text" value="Условные обозначения"/>
+	</o>
+	<o type="text" id="contentsPopup">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="historyPopup">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="searchPopup">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="bookmarksPopup">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="artViewPopup">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="inputPopup">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="idioms_tip">
+		<p name="text" value="Устойчивые словосочетания"/> <!--словосочетания-->
+	</o>
+	<o type="text" id="term_tip">
+		<p name="text" value="Главное слово/ведущий термин"/> <!--главное вместо заглавного-->
+	</o>
+	<o type="text" id="approx_tip">
+		<p name="text" value="Приблизительный перевод"/>
+	</o>
+	<o type="text" id="equal_tip">
+		<p name="text" value="Тождественность словарных единиц"/>
+	</o>
+	<o type="text" id="irregular_tip">
+		<p name="text" value="Изменение не по правилам"/>
+	</o>
+	<o type="text" id="set_general">
+		<p name="text" value="Общие"/>
+	</o>
+	<o type="text" id="set_interface">
+		<p name="text" value="Интерфейс"/>
+	</o>
+	<o type="text" id="set_dictionaries">
+		<p name="text" value="Настройка словарей"/>
+	</o>
+	<o type="text" id="set_hotkeys">
+		<p name="text" value="Клавиши поиска"/>
+	</o>
+	<o type="text" id="set_other">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="file">
+		<p name="text" value=" &amp;Файл "/>
+	</o>
+	<o type="text" id="edit">
+		<p name="text" value=" &amp;Правка "/>
+	</o>
+	<o type="text" id="view">
+		<p name="text" value=" &amp;Вид "/>
+	</o>
+	<o type="text" id="tools">
+		<p name="text" value=" &amp;Сервис "/>
+	</o>
+	<o type="text" id="help">
+		<p name="text" value=" &amp;Справка "/>
+	</o>
+	<o type="text" id="open">
+		<p name="text" value="&amp;Открыть"/>
+	</o>
+	<o type="text" id="close">
+		<p name="text" value="&amp;Закрыть"/>
+	</o>
+	<o type="text" id="close_all">
+		<p name="text" value="&amp;Закрыть все"/>
+	</o>
+	<o type="text" id="undock">
+		<p name="text" value="&amp;Развернуть"/>
+	</o>
+	<o type="text" id="import">
+		<p name="text" value="Импорт..."/>
+	</o>
+	<o type="text" id="export">
+		<p name="text" value="Экспорт..."/>
+	</o>
+	<o type="text" id="import_dic">
+		<p name="text" value="Импортировать словарь"/>
+	</o>
+	<o type="text" id="export_dic">
+		<p name="text" value="Экспортировать словарь"/>
+	</o>
+	<o type="text" id="print">
+		<p name="text" value="&amp;Печать..."/>
+	</o>
+	<o type="text" id="run">
+		<p name="text" value="&amp;Открыть Oxford Dictionary"/>
+	</o>
+	<o type="text" id="exit">
+		<p name="text" value="&amp;Выход"/>
+	</o>
+	<o type="text" id="copy">
+		<p name="text" value="&amp;Копировать"/>
+	</o>
+	<o type="text" id="cut">
+		<p name="text" value="&amp;Вырезать"/>
+	</o>
+	<o type="text" id="paste">
+		<p name="text" value="&amp;Вставить"/>
+	</o>
+	<o type="text" id="selectall">
+		<p name="text" value="&amp;Выделить всё"/>
+	</o>
+	<o type="text" id="go_back">
+		<p name="text" value="Назад"/>
+	</o>
+	<o type="text" id="go_fwd">
+		<p name="text" value="Вперёд"/>
+	</o>
+	<o type="text" id="go_first">
+		<p name="text" value="Первая статья"/>
+	</o>
+	<o type="text" id="go_last">
+		<p name="text" value="Последняя статья"/>
+	</o>
+	<o type="text" id="go_next">
+		<p name="text" value="Следующая статья"/>
+	</o>
+	<o type="text" id="go_prev">
+		<p name="text" value="Предыдущая статья"/>
+	</o>
+	<o type="text" id="go_pgup">
+		<p name="text" value="Страница вверх"/>
+	</o>
+	<o type="text" id="go_pgdn">
+		<p name="text" value="Страница вниз"/>
+	</o>
+	<o type="text" id="switch_mode">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="standart_mode">
+		<p name="text" value="Стандартный режим работы"/>
+	</o>
+	<o type="text" id="small_mode">
+		<p name="text" value="Упрощенный режим работы"/>
+	</o>
+	<o type="text" id="toolbars">
+		<p name="text" value="&amp;Панели инструментов"/>
+	</o>
+	<o type="text" id="topmost">
+		<p name="text" value="Поверх всех окон"/>
+	</o>
+	<o type="text" id="dictcoll">
+		<p name="text" value="Направление перевода"/>
+	</o>
+	<o type="text" id="dicts">
+		<p name="text" value="&amp;Рабочие словари"/>
+	</o>
+	<o type="text" id="swaplang">
+		<p name="text" value="Инвертировать направление перевода"/>
+	</o>
+	<o type="text" id="exitAgent">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="search">
+		<p name="text" value="Поиск"/>
+	</o>
+	<o type="text" id="searchAlpha">
+		<p name="text" value="Поиск по содержанию"/>
+	</o>
+	<o type="text" id="searchQuick">
+		<p name="text" value="Всплывающий перевод"/> <!--перекрестный перевод-->
+	</o>
+	<o type="text" id="searchHK">
+		<p name="text" value="Поиск:"/>
+	</o>
+	<o type="text" id="searchAlphaHK">
+		<p name="text" value="Поиск по содержанию:"/>
+	</o>
+	<o type="text" id="searchQuickHK">
+		<p name="text" value="Всплывающий перевод:"/> <!--перекрестный перевод-->
+	</o>
+	<o type="text" id="searchMouseHK">
+		<p name="text" value="Мышь"/>
+	</o>
+	<o type="text" id="searchKbdHK">
+		<p name="text" value="Клавиши"/>
+	</o>
+	<o type="text" id="searchMore">
+		<p name="text" value="Искать еще..."/>
+	</o>
+	<o type="text" id="paradigm">
+		<p name="text" value="Показать словоформы"/>
+	</o>
+	<o type="text" id="paradigm_for">
+		<p name="text" value="Словоформы"/>
+	</o>
+	<o type="text" id="comment_for">
+		<p name="text" value="Комментарии к"/>
+	</o>
+	<o type="text" id="speech">
+		<p name="text" value="Произнести"/>
+	</o>
+	<o type="text" id="settings">
+		<p name="text" value="Настройки Oxford Dictionary"/> <!--предлагаю два пункта про настройки объединить-->
+	</o>
+	<o type="text" id="setup_dic">
+		<p name="text" value="Настройка словарей..."/>
+	</o>
+	<o type="text" id="insBookmark">
+		<p name="text" value="Вставить закладку"/>
+	</o>
+	<o type="text" id="delBookmark">
+		<p name="text" value="Удалить закладку"/>
+	</o>
+	<o type="text" id="delHistory">
+		<p name="text" value="Удалить из истории"/>
+	</o>
+	<o type="text" id="delArticle">
+		<p name="text" value="Удалить статью"/>
+	</o>
+	<o type="text" id="addArticle">
+		<p name="text" value="Создать статью"/>
+	</o>
+	<o type="text" id="editArticle">
+		<p name="text" value="Редактировать статью"/>
+	</o>
+	<o type="text" id="saveArticle">
+		<p name="text" value="Сохранить статью"/>
+	</o>
+	<o type="text" id="showExamples">
+		<p name="text" value="Показывать примеры"/>
+	</o>
+	<o type="text" id="showTranscript">
+		<p name="text" value="Показывать транскрипцию"/>
+	</o>
+	<o type="text" id="showStress">
+		<p name="text" value="Показывать ударения"/>
+	</o>
+	<o type="text" id="showHL">
+		<p name="text" value="Подсвечивать найденное"/> 
+	</o>
+	<o type="text" id="showExamplesTip">
+		<p name="text" value="Показывать/Скрывать примеры употребления"/>
+	</o>
+	<o type="text" id="showTranscriptTip">
+		<p name="text" value="Показывать/Скрывать транскрипцию"/>
+	</o>
+	<o type="text" id="showStressTip">
+		<p name="text" value="Показывать/Скрывать ударения"/>
+	</o>
+	<o type="text" id="showHLTip">
+		<p name="text" value="Показывать/Скрывать подсветку найденного"/>
+	</o>
+	<o type="text" id="art_font_up">
+		<p name="text" value="Увеличить размер шрифта"/>
+	</o>
+	<o type="text" id="art_font_down">
+		<p name="text" value="Уменьшить размер шрифта"/>
+	</o>
+	<o type="text" id="showContents">
+		<p name="text" value="Содержание"/>
+	</o>
+	<o type="text" id="showResults">
+		<p name="text" value="Результаты поиска"/>
+	</o>
+	<o type="text" id="showHistory">
+		<p name="text" value="История просмотра"/>
+	</o>
+	<o type="text" id="showBookmarks">
+		<p name="text" value="Закладки"/>
+	</o>
+	<o type="text" id="showComments">
+		<p name="text" value="Комментарии"/>
+	</o>
+	<o type="text" id="showStatus">
+		<p name="text" value="Строка состояния"/>
+	</o>
+	<o type="text" id="showInput">
+		<p name="text" value="Строка ввода"/>
+	</o>
+	<o type="text" id="popupWindow">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="editorWindow">
+		<p name="text" value="Редактор статьи"/>
+	</o>
+	<o type="text" id="help_contents">
+		<p name="text" value="Справка Oxford Dictionary"/>
+	</o>
+	<o type="text" id="help_support">
+		<p name="text" value="Техническая поддержка"/>
+	</o>
+	<o type="text" id="help_register">
+		<p name="text" value="Регистрация..."/>
+	</o>
+	<o type="text" id="help_activate">
+		<p name="text" value="Регистрация"/>
+	</o>
+        <o type="text" id="actSucceeded">
+		<p name="text" value="Регистрация успешно завершена"/>
+	</o>
+        <o type="text" id="actInvalidCode">
+		<p name="text" value="Введен неверный регистрационный код"/>
+	</o>
+	<o type="text" id="help_abbr">
+		<p name="text" value="Условные сокращения"/>
+	</o>
+	<o type="text" id="help_irregular">
+		<p name="text" value="Слова, изменяющиеся не по правилам"/>
+	</o>
+	<o type="text" id="help_transcript">
+		<p name="text" value="Фонетическая транскрипция"/>
+	</o>
+	<o type="text" id="help_dict">
+		<p name="text" value="О словаре..."/>
+	</o>
+	<o type="text" id="help_about">
+		<p name="text" value="О словаре Oxford Dictionary..."/>
+	</o>
+	<o type="text" id="dictSelectAll">
+		<p name="text" value="Подключить все словари"/>
+	</o>
+	<o type="text" id="dictUnselectAll">
+		<p name="text" value="Отключить все словари"/>
+	</o>
+	<o type="text" id="w_about">
+		<p name="text" value="О словаре Oxford Dictionary"/>
+	</o>
+	<o type="text" id="w_contents">
+		<p name="text" value="Содержание"/>
+	</o>
+	<o type="text" id="w_results">
+		<p name="text" value="Результаты поиска"/>
+	</o>
+	<o type="text" id="w_history">
+		<p name="text" value="История"/>
+	</o>
+	<o type="text" id="w_bookmarks">
+		<p name="text" value="Закладки"/>
+	</o>
+	<o type="text" id="w_comments">
+		<p name="text" value="Комментарии"/>
+	</o>
+	<o type="text" id="w_input">
+		<p name="text" value="Строка ввода"/>
+	</o>
+	<o type="text" id="w_status">
+		<p name="text" value="Строка состояния"/>
+	</o>
+	<o type="text" id="w_settings">
+		<p name="text" value="Настройки Oxford Dictionary"/>
+	</o>
+	<o type="text" id="act_window">
+		<p name="text" value="Регистрация"/>
+	</o>
+	<o type="text" id="act_type_window">
+		<p name="text" value="Способ регистрации"/>
+	</o>
+	<o type="text" id="act_code_window">
+		<p name="text" value="Ввод кода регистрации"/>
+	</o>
+	<o type="text" id="english">
+		<p name="text" value="English"/>
+	</o>
+	<o type="text" id="german">
+		<p name="text" value="Deutsch"/>
+	</o>
+	<o type="text" id="french">
+		<p name="text" value="Fran&#x00e7;ais"/>
+	</o>
+	<o type="text" id="italian">
+		<p name="text" value="Italiano"/>
+	</o>
+        <o type="text" id="portuguese">
+		<p name="text" value="Portuguese"/>
+	</o>
+	<o type="text" id="spanish">
+		<p name="text" value="Espa&#x00f1;ol"/>
+	</o>
+	<o type="text" id="russian">
+		<p name="text" value="Русский"/>
+	</o>
+	<o type="text" id="EN">
+		<p name="text" value="Английский"/>
+	</o>
+	<o type="text" id="DE">
+		<p name="text" value="Немецкий"/>
+	</o>
+	<o type="text" id="FR">
+		<p name="text" value="Французcкий"/>
+	</o>
+	<o type="text" id="IT">
+		<p name="text" value="Итальянский"/>
+	</o>
+	<o type="text" id="SP">
+		<p name="text" value="Испанский"/>
+	</o>
+	<o type="text" id="RU">
+		<p name="text" value="Русский"/>
+	</o>
+    <o type="text" id="PT">
+		<p name="text" value="Португальский"/>
+	</o>
+	<o type="text" id="EN-">
+		<p name="text" value="Англo"/>
+	</o>
+	<o type="text" id="DE-">
+		<p name="text" value="Немецкo"/>
+	</o>
+	<o type="text" id="FR-">
+		<p name="text" value="Французcкo"/>
+	</o>
+	<o type="text" id="IT-">
+		<p name="text" value="Итальянскo"/>
+	</o>
+	<o type="text" id="SP-">
+		<p name="text" value="Испанскo"/>
+	</o>
+	<o type="text" id="RU-">
+		<p name="text" value="Русскo"/>
+	</o>
+    <o type="text" id="PT-">
+		<p name="text" value="Португальскo"/>
+	</o>
+	<o type="text" id="ENcoll">
+		<p name="text" value="Английская коллекция"/>
+	</o>
+	<o type="text" id="DEcoll">
+		<p name="text" value="Немецкая коллекция"/>
+	</o>
+	<o type="text" id="FRcoll">
+		<p name="text" value="Французcкая коллекция"/>
+	</o>
+	<o type="text" id="ITcoll">
+		<p name="text" value="Итальянская коллекция"/>
+	</o>
+	<o type="text" id="SPcoll">
+		<p name="text" value="Испанская коллекция"/>
+	</o>
+	<o type="text" id="RUcoll">
+		<p name="text" value="Русская коллекция"/>
+	</o>
+        <o type="text" id="PTcoll">
+		<p name="text" value="Португальская коллекция"/>
+	</o>
+	<o type="text" id="ENx">
+		<p name="text" value="В английской коллекции"/>
+	</o>
+	<o type="text" id="DEx">
+		<p name="text" value="В немецкой коллекции"/>
+	</o>
+	<o type="text" id="FRx">
+		<p name="text" value="Во французcкой коллекции"/>
+	</o>
+	<o type="text" id="ITx">
+		<p name="text" value="В итальянской коллекции"/>
+	</o>
+	<o type="text" id="SPx">
+		<p name="text" value="В испанской коллекции"/>
+	</o>
+	<o type="text" id="RUx">
+		<p name="text" value="В русской коллекции"/>
+	</o>
+        <o type="text" id="PTx">
+		<p name="text" value="В португальской коллекции"/>
+	</o>
+	<o type="text" id="DERUgen">
+		<p name="text" value="Общая лексика. Рымашевская"/>
+	</o>
+	<o type="text" id="DERUgen2">
+		<p name="text" value="Общая лексика. Лейн"/>
+	</o>
+	<o type="text" id="ENRUgen">
+		<p name="text" value="Общая лексика. НБАРС"/>
+	</o>
+	<o type="text" id="ENRUgen2">
+		<p name="text" value="Общая лексика. Мюллер"/>
+	</o>
+	<o type="text" id="FRRUgen">
+		<p name="text" value="Общая лексика. Раевская"/>
+	</o>
+	<o type="text" id="FRRUgen2">
+		<p name="text" value="Общая лексика. Гак"/>
+	</o>
+	<o type="text" id="ITRUgen">
+		<p name="text" value="Общая лексика. Зорько"/>
+	</o>
+	<o type="text" id="ITRUgen2">
+		<p name="text" value="Общая лексика. Ковалёв"/>
+	</o>
+	<o type="text" id="RUITgen2">
+		<p name="text" value="Общая лексика. Ковалёв"/>
+	</o>
+	<o type="text" id="RUDEgen2">
+		<p name="text" value="Общая лексика. Цвиллинг"/>
+	</o>
+	<o type="text" id="RUDEgen">
+		<p name="text" value="Общая лексика. Рымашевская"/>
+	</o>
+	<o type="text" id="RUENgen">
+		<p name="text" value="Общая лексика. Смирницкий"/>
+	</o>
+	<o type="text" id="RUFRgen">
+		<p name="text" value="Общая лексика. Раевская"/>
+	</o>
+	<o type="text" id="RUFRgen2">
+		<p name="text" value="Общая лексика. Щерба"/>
+	</o>
+	<o type="text" id="RUSPgen">
+		<p name="text" value="Общая лексика. Туровер"/>
+	</o>
+	<o type="text" id="SPRUgen">
+		<p name="text" value="Общая лексика. Садиков"/>
+	</o>
+	<o type="text" id="ENRUbrif">
+		<p name="text" value="Общая лексика. Ахманова"/>
+	</o>
+	<o type="text" id="RUENbrif">
+		<p name="text" value="Общая лексика. Ахманова"/>
+	</o>
+	<o type="text" id="gen">
+		<p name="text" value="Общая лексика"/>
+	</o>
+	<o type="text" id="gen2">
+		<p name="text" value="Общая лексика"/>
+	</o>
+	<o type="text" id="act">
+		<p name="text" value="Активная лексика"/>
+	</o>
+	<o type="text" id="brif">
+		<p name="text" value="Краткий словарь"/>
+	</o>
+	<o type="text" id="ecn">
+		<p name="text" value="Экономика"/>
+	</o>
+	<o type="text" id="med">
+		<p name="text" value="Медицина"/>
+	</o>
+	<o type="text" id="tech">
+		<p name="text" value="Техника"/>
+	</o>
+	<o type="text" id="bank">
+		<p name="text" value="Банк"/>
+	</o>
+	<o type="text" id="bio">
+		<p name="text" value="Биология"/>
+	</o>
+	<o type="text" id="bld">
+		<p name="text" value="Строительство"/>
+	</o>
+	<o type="text" id="comp">
+		<p name="text" value="Вычислительная техника"/>
+	</o>
+	<o type="text" id="jur">
+		<p name="text" value="Право"/>
+	</o>
+	<o type="text" id="plgr">
+		<p name="text" value="Полиграфия"/>
+	</o>
+	<o type="text" id="soc">
+		<p name="text" value="Социология"/>
+	</o>
+	<o type="text" id="sun">
+		<p name="text" value="Солнечная энергетика"/>
+	</o>
+	<o type="text" id="oil">
+		<p name="text" value="Нефть и газ"/>
+	</o>
+	<o type="text" id="phys">
+		<p name="text" value="Физика"/>
+	</o>
+	<o type="text" id="abbr">
+		<p name="text" value="Сокращения"/>
+	</o>
+	<o type="text" id="usa">
+		<p name="text" value="Лингвострановедение. США"/>
+	</o>
+	<o type="text" id="aus">
+		<p name="text" value="Лингвострановедение. Австралия"/>
+	</o>
+	<o type="text" id="brit">
+		<p name="text" value="Лингвострановедение. Великобритания"/>
+	</o>
+	<o type="text" id="lex">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="nlex">
+		<p name="text" value="Новый русский лексикон. Бенюх"/>
+	</o>
+	<o type="text" id="webd">
+		<p name="text" value="Webster's New World Dictionary"/>
+	</o>
+	<o type="text" id="webt">
+		<p name="text" value="Webster's New World Thesaurus"/>
+	</o>
+	<o type="text" id="tele">
+		<p name="text" value="Телекоммуникации"/>
+	</o>
+	<o type="text" id="user">
+		<p name="text" value="Пользовательский"/>
+	</o>
+	<o type="text" id="noun">
+		<p name="text" value="сущ."/>
+	</o>
+	<o type="text" id="verb">
+		<p name="text" value="гл."/>
+	</o>
+	<o type="text" id="adjective">
+		<p name="text" value="прил."/>
+	</o>
+	<o type="text" id="adverb">
+		<p name="text" value="нареч."/>
+	</o>
+	<o type="text" id="article">
+		<p name="text" value="артикль"/>
+	</o>
+	<o type="text" id="particle">
+		<p name="text" value="част."/>
+	</o>
+	<o type="text" id="conjunction">
+		<p name="text" value="союз"/>
+	</o>
+	<o type="text" id="preposition">
+		<p name="text" value="предлог"/>
+	</o>
+	<o type="text" id="pronoun">
+		<p name="text" value="мест."/>
+	</o>
+	<o type="text" id="interjection">
+		<p name="text" value="межд."/>
+	</o>
+	<o type="text" id="pronoun-adjective">
+		<p name="text" value="мест-прил."/>
+	</o>
+	<o type="text" id="abbreviation">
+		<p name="text" value="сокр."/>
+	</o>
+	<o type="text" id="hieroglyph">
+		<p name="text" value="буква."/>
+	</o>
+	<o type="text" id="personal pronoun">
+		<p name="text" value="лич.мест."/>
+	</o>
+	<o type="text" id="reflexive pronoun">
+		<p name="text" value="возвр.мест."/>
+	</o>
+	<o type="text" id="demonstrative pronoun">
+		<p name="text" value="ук.мест."/>
+	</o>
+	<o type="text" id="possessive pronoun">
+		<p name="text" value="притяж.мест."/>
+	</o>
+	<o type="text" id="perfective aspect">
+		<p name="text" value="соверш."/>
+	</o>
+	<o type="text" id="imperfective aspect">
+		<p name="text" value="несов."/>
+	</o>
+	<o type="text" id="imperfect">
+		<p name="text" value="прош.несов.вр."/>
+	</o>
+	<o type="text" id="indefinite">
+		<p name="text" value="прош.неопр.вр."/>
+	</o>
+	<o type="text" id="animate">
+		<p name="text" value="одуш."/>
+	</o>
+	<o type="text" id="inanimate">
+		<p name="text" value="неодуш."/>
+	</o>
+	<o type="text" id="animate-inanimate">
+		<p name="text" value="одуш-неодуш."/>
+	</o>
+	<o type="text" id="intransitive">
+		<p name="text" value="неперех."/>
+	</o>
+	<o type="text" id="transitive">
+		<p name="text" value="перех."/>
+	</o>
+	<o type="text" id="masculine">
+		<p name="text" value="м.р."/>
+	</o>
+	<o type="text" id="feminine">
+		<p name="text" value="ж.р."/>
+	</o>
+	<o type="text" id="neuter">
+		<p name="text" value="ср.р."/>
+	</o>
+	<o type="text" id="1st person">
+		<p name="text" value="1-е л."/>
+	</o>
+	<o type="text" id="2nd person">
+		<p name="text" value="2-е л."/>
+	</o>
+	<o type="text" id="3rd person">
+		<p name="text" value="3-е л."/>
+	</o>
+	<o type="text" id="singular">
+		<p name="text" value="ед.ч."/>
+	</o>
+	<o type="text" id="plural">
+		<p name="text" value="мн.ч."/>
+	</o>
+	<o type="text" id="1sg">
+		<p name="text" value="1-е л. ед.ч."/>
+	</o>
+	<o type="text" id="2sg">
+		<p name="text" value="2-е л. ед.ч."/>
+	</o>
+	<o type="text" id="3sg">
+		<p name="text" value="3-е л. ед.ч."/>
+	</o>
+	<o type="text" id="1pl">
+		<p name="text" value="1-е л. мн.ч."/>
+	</o>
+	<o type="text" id="2pl">
+		<p name="text" value="2-е л. мн.ч."/>
+	</o>
+	<o type="text" id="3pl">
+		<p name="text" value="3-е л. мн.ч."/>
+	</o>
+	<o type="text" id="nominative">
+		<p name="text" value="им.п."/>
+	</o>
+	<o type="text" id="genitive">
+		<p name="text" value="род.п."/>
+	</o>
+	<o type="text" id="dative">
+		<p name="text" value="дат.п."/>
+	</o>
+	<o type="text" id="accusative">
+		<p name="text" value="вин.п."/>
+	</o>
+	<o type="text" id="instrumental">
+		<p name="text" value="тв.п."/>
+	</o>
+	<o type="text" id="prepositional">
+		<p name="text" value="предл.п."/>
+	</o>
+	<o type="text" id="reflexive">
+		<p name="text" value="возвр."/>
+	</o>
+	<o type="text" id="impersonal">
+		<p name="text" value="безлич."/>
+	</o>
+	<o type="text" id="participle">
+		<p name="text" value="прич."/>
+	</o>
+	<o type="text" id="active participle">
+		<p name="text" value="действ.прич."/>
+	</o>
+	<o type="text" id="passive participle">
+		<p name="text" value="страд.прич."/>
+	</o>
+	<o type="text" id="verbal adverb">
+		<p name="text" value="дееприч."/>
+	</o>
+	<o type="text" id="I">
+		<p name="text" value="тип 1"/>
+	</o>
+	<o type="text" id="II">
+		<p name="text" value="тип 2"/>
+	</o>
+	<o type="text" id="I short">
+		<p name="text" value="тип 1 (кратк.)"/>
+	</o>
+	<o type="text" id="II short">
+		<p name="text" value="тип 2 (кратк.)"/>
+	</o>
+	<o type="text" id="infinitive">
+		<p name="text" value="инф."/>
+	</o>
+	<o type="text" id="imperative">
+		<p name="text" value="повел.накл."/>
+	</o>
+	<o type="text" id="present">
+		<p name="text" value="наст.вр."/>
+	</o>
+	<o type="text" id="past">
+		<p name="text" value="прош.вр."/>
+	</o>
+	<o type="text" id="future">
+		<p name="text" value="буд.вр."/>
+	</o>
+	<o type="text" id="short form">
+		<p name="text" value="кратк."/>
+	</o>
+	<o type="text" id="present participle">
+		<p name="text" value="прич.наст.вр."/>
+	</o>
+	<o type="text" id="past participle">
+		<p name="text" value="прич.прош.вр."/>
+	</o>
+	<o type="text" id="positive degree">
+		<p name="text" value="полож.ст."/>
+	</o>
+	<o type="text" id="comparative degree">
+		<p name="text" value="сравн.ст."/>
+	</o>
+	<o type="text" id="comparative short">
+		<p name="text" value="сравн.ст.	(кратк.)"/>
+	</o>
+	<o type="text" id="superlative degree">
+		<p name="text" value="первосх.ст."/>
+	</o>
+	<o type="text" id="superlative short">
+		<p name="text" value="первосх.ст. (кратк.)"/>
+	</o>
+	<o type="text" id="subjective case">
+		<p name="text" value="прям.п."/>
+	</o>
+	<o type="text" id="oive case">
+		<p name="text" value="косв.п."/>
+	</o>
+	<o type="text" id="possessive">
+		<p name="text" value="притяж."/>
+	</o>
+	<o type="text" id="3rd person sg present">
+		<p name="text" value="3-е л. ед.ч."/>
+	</o>
+	<o type="text" id="numeral">
+		<p name="text" value="числ."/>
+	</o>
+	<o type="text" id="prefix">
+		<p name="text" value="прист."/>
+	</o>
+	<o type="text" id="invariant">
+		<p name="text" value="неизм."/>
+	</o>
+	<o type="text" id="attribute">
+		<p name="text" value="опр."/>
+	</o>
+	<o type="text" id="onomat">
+		<p name="text" value="ономат."/>
+	</o>
+	<o type="text" id="conditional">
+		<p name="text" value="усл.накл."/>
+	</o>
+	<o type="text" id="subjunctive">
+		<p name="text" value="сосл.накл."/>
+	</o>
+	<o type="text" id="subjunctive present">
+		<p name="text" value="сосл.накл. наст.вр."/>
+	</o>
+	<o type="text" id="subjunctive past">
+		<p name="text" value="сосл.накл. прош.вр."/>
+	</o>
+	<o type="text" id="gerund">
+		<p name="text" value="герун."/>
+	</o>
+	<o type="text" id="msg">
+		<p name="text" value="м.р. ед.ч."/>
+	</o>
+	<o type="text" id="mpl">
+		<p name="text" value="м.р. мн.ч."/>
+	</o>
+	<o type="text" id="fsg">
+		<p name="text" value="ж.р. ед.ч."/>
+	</o>
+	<o type="text" id="fpl">
+		<p name="text" value="ж.р. мн.ч."/>
+	</o>
+	<o type="text" id="complement">
+		<p name="text" value="дополн."/>
+	</o>
+	<o type="text" id="direct">
+		<p name="text" value="прям."/>
+	</o>
+	<o type="text" id="indirect">
+		<p name="text" value="непрям."/>
+	</o>
+	<o type="text" id="ton">
+		<p name="text" value="ударн."/>
+	</o>
+	<o type="text" id="aton">
+		<p name="text" value="безуд."/>
+	</o>
+	<o type="text" id="present indefinite">
+		<p name="text" value="наст.неопр.вр."/>
+	</o>
+	<o type="text" id="conditional past">
+		<p name="text" value="усл.накл. прош.вр."/>
+	</o>
+	<o type="text" id="conditional future">
+		<p name="text" value="усл.накл. буд.вр."/>
+	</o>
+	<o type="text" id="conditional imperfect">
+		<p name="text" value="усл.накл. прош.несов.вр."/>
+	</o>
+	<o type="text" id="polite">
+		<p name="text" value="вежл."/>
+	</o>
+	<o type="text" id="name">
+		<p name="text" value="имя"/>
+	</o>
+	<o type="text" id="family">
+		<p name="text" value="фамилия"/>
+	</o>
+	<o type="text" id="geo">
+		<p name="text" value="геогр."/>
+	</o>
+	<o type="text" id="prop">
+		<p name="text" value="имя собств."/>
+	</o>
+	<o type="text" id="modal">
+		<p name="text" value="модальн."/>
+	</o>
+	<o type="text" id="MN">
+		<p name="text" value="м.р. им.п."/>
+	</o>
+	<o type="text" id="MG">
+		<p name="text" value="м.р. род.п."/>
+	</o>
+	<o type="text" id="MD">
+		<p name="text" value="м.р. дат.п."/>
+	</o>
+	<o type="text" id="MA">
+		<p name="text" value="м.р. вин.п."/>
+	</o>
+	<o type="text" id="FN">
+		<p name="text" value="ж.р. им.п."/>
+	</o>
+	<o type="text" id="FG">
+		<p name="text" value="ж.р. род.п."/>
+	</o>
+	<o type="text" id="FD">
+		<p name="text" value="ж.р. дат.п."/>
+	</o>
+	<o type="text" id="FA">
+		<p name="text" value="ж.р. вин.п."/>
+	</o>
+	<o type="text" id="NN">
+		<p name="text" value="ср.р. им.п."/>
+	</o>
+	<o type="text" id="NG">
+		<p name="text" value="ср.р. род.п."/>
+	</o>
+	<o type="text" id="ND">
+		<p name="text" value="ср.р. дат.п."/>
+	</o>
+	<o type="text" id="NA">
+		<p name="text" value="ср.р. вин.п."/>
+	</o>
+	<o type="text" id="PN">
+		<p name="text" value="мн.ч. им.п."/>
+	</o>
+	<o type="text" id="PG">
+		<p name="text" value="мн.ч. род.п."/>
+	</o>
+	<o type="text" id="PD">
+		<p name="text" value="мн.ч. дат.п."/>
+	</o>
+	<o type="text" id="PA">
+		<p name="text" value="мн.ч. вин.п."/>
+	</o>
+	<o type="text" id="Pr_1sg">
+		<p name="text" value="наст.вр. 1-е.л. ед.ч."/>
+	</o>
+	<o type="text" id="Pr_2sg">
+		<p name="text" value="наст.вр. 2-е.л. ед.ч."/>
+	</o>
+	<o type="text" id="Pr_3sg">
+		<p name="text" value="наст.вр. 3-е.л. ед.ч."/>
+	</o>
+	<o type="text" id="Pr_1pl">
+		<p name="text" value="наст.вр. 1-е.л. мн.ч."/>
+	</o>
+	<o type="text" id="Pr_2pl">
+		<p name="text" value="наст.вр. 2-е.л. мн.ч."/>
+	</o>
+	<o type="text" id="Pr_3pl">
+		<p name="text" value="наст.вр. 3-е.л. мн.ч."/>
+	</o>
+	<o type="text" id="Fut_1sg">
+		<p name="text" value="буд.вр. 1-е.л. ед.ч."/>
+	</o>
+	<o type="text" id="Fut_2sg">
+		<p name="text" value="буд.вр. 2-е.л. ед.ч."/>
+	</o>
+	<o type="text" id="Fut_3sg">
+		<p name="text" value="буд.вр. 3-е.л. ед.ч."/>
+	</o>
+	<o type="text" id="Fut_1pl">
+		<p name="text" value="буд.вр. 1-е.л. мн.ч."/>
+	</o>
+	<o type="text" id="Fut_2pl">
+		<p name="text" value="буд.вр. 2-е.л. мн.ч."/>
+	</o>
+	<o type="text" id="Fut_3pl">
+		<p name="text" value="буд.вр. 3-е.л. мн.ч."/>
+	</o>
+
+	<o type="text" id="Error">
+		<p name="text" value="Ошибка"/>
+	</o>
+	<o type="text" id="e0">
+		<p name="text" value="Операция выполнена успешно"/>
+	</o>
+	<o type="text" id="e1">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="e2">
+		<p name="text" value="Не удалось открыть файл &quot;%&quot;. Возможно, он используется другим приложением"/>
+	</o>
+	<o type="text" id="e3">
+		<p name="text" value="Файл &quot;%&quot; не найден. Переустановите программу Oxford Dictionary"/>
+	</o>
+	<o type="text" id="e4">
+		<p name="text" value="Не удалось создать файл &quot;%&quot;. Переустановите программу Oxford Dictionary"/>
+	</o>
+	<o type="text" id="e5">
+		<p name="text" value="Неверный формат файла &quot;%&quot;. Переустановите программу Oxford Dictionary"/>
+	</o>
+	<o type="text" id="e6">
+		<p name="text" value="Нарушена структура данных в файле &quot;%&quot;. Для восстановления структуры переустановите программу Oxford Dictionary"/>
+	</o>
+	<o type="text" id="e7">
+		<p name="text" value="Не удалось создать объект &quot;%&quot;. Переустановите программу Oxford Dictionary"/>
+	</o>
+	<o type="text" id="e8">
+		<p name="text" value=""/>
+	</o>
+	<o type="text" id="e9">
+		<p name="text" value="Нарушена структура данных объекта &quot;%&quot;. Для восстановления структуры переустановите программу АльфаЛекс"/>
+	</o>
+	<o type="text" id="e1001">
+		<p name="text" value="Ошибка при выполнении операции: %
+Источник ошибки: %. Данная ошибка может привести к нестабильности работы приложения.
+Пожалуйста, сообщите о факте ее возникновения 
+разработчикам компании Paragon Software Group"/>
+	</o>
+	<o type="text" id="e2001">
+		<p name="text" value="Неизвестная ошибка приложения %.
+Источник: % %. 
+Данная ошибка может привести к нестабильности работы приложения.
+Пожалуйста, сообщите о факте ее возникновения 
+разработчикам компании Paragon Software Group"/>
+	</o></root>

@@ -1,0 +1,21 @@
+<root>
+                 
+<o type="listview" id="lv_meta">
+	<p name="-datasrc" value="en-ru-en" type="metadict" />
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="listview" id="lv_bookmarks">
+	<p name="-datasrc" value="bookmarks" type="userlinks" />
+	<p name="font" value="gui_lr" type="font" />
+</o>
+<o type="listview" id="lv_history">
+	<p name="-datasrc" value="history" type="userlinks" />
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+<o type="listview" id="lv_xxx">
+	<p name="font" value="gui_lr" type="font" />
+</o>
+
+</root>

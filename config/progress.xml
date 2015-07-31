@@ -1,0 +1,57 @@
+<root>
+
+<o type="progress" id="index">
+	<p name="frame" value="frx2" type="frame"/>
+	<p name="font" value="gui_lr" type="font" />
+	<p name="text" value="indexing_info" type="text" />
+	<p name="caption" value="indexing" type="text" />
+	<p name="btnbg" value="skin_bg" type="image"/>
+	<p name="btntext" value="abort" type="text"/>
+	<p name="canstop" value="0" type="n"/>
+</o>
+
+<o type="progress" id="index2">
+	<p name="frame" value="frx2" type="frame"/>
+	<p name="font" value="gui_lr" type="font" />
+	<p name="text" value="indexing_info" type="text" />
+	<p name="caption" value="indexing" type="text" />
+	<p name="btnbg" value="skin_bg" type="image"/>
+	<p name="btntext" value="abort" type="text"/>
+	<p name="canstop" value="0" type="n"/>
+</o>
+<o type="progress" id="import">
+	<p name="frame" value="frx2" type="frame"/>
+	<p name="font" value="gui_lr" type="font" />
+	<p name="text" value="importing_info" type="text" />
+	<p name="caption" value="importing" type="text" />
+	<p name="btnbg" value="skin_bg" type="image"/>
+	<p name="btntext" value="abort" type="text"/>
+</o>
+<o type="progress" id="export">
+	<p name="frame" value="frx2" type="frame"/>
+	<p name="font" value="gui_lr" type="font" />
+	<p name="text" value="exporting_info" type="text" />
+	<p name="caption" value="exporting" type="text" />
+	<p name="btnbg" value="skin_bg" type="image"/>
+	<p name="btntext" value="abort" type="text"/>
+</o>
+
+<o type="progress" id="search">
+	<p name="frame" value="frx2" type="frame"/>
+	<p name="font" value="gui_lr" type="font" />
+	<p name="text" value="searching_info" type="text" />
+	<p name="caption" value="searching" type="text" />
+	<p name="btnbg" value="skin_bg" type="image"/>
+	<p name="btntext" value="abort" type="text"/>
+</o>
+
+<o type="progress" id="register">
+	<p name="frame" value="frx2" type="frame"/>
+	<p name="font" value="gui_lr" type="font" />
+	<p name="text" value="register_progress_info" type="text" />
+	<p name="caption" value="register_progress" type="text" />
+	<p name="btnbg" value="skin_bg" type="image"/>
+	<p name="btntext" value="abort" type="text"/>
+</o>
+
+</root>

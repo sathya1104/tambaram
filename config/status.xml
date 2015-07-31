@@ -1,0 +1,10 @@
+<root>
+
+<o type="status" id="main">
+	<p name="background" value="skin_bg2" type="image"/>
+</o>
+<o type="status" id="popup">
+	<p name="background" value="skin_bg2" type="image"/>
+</o>
+
+</root>

@@ -1,0 +1,945 @@
+<root>
+
+	<o type="image" id="app">
+		<p name="src" value="" type="s" />
+		<p name="resid" value="!main" type="s" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="32" type="n" />
+		<p name="h" value="32" type="n" />
+	</o>
+
+	<o type="image" id="vlogo">
+		<p name="src" value="" type="s" />
+		<p name="resid" value="vlogo" type="s" />
+		<p name="type" value="bmp" type="s" />
+	</o>
+
+	<o type="image" id="app1">
+		<p name="src" value="" type="s" />
+		<p name="resid" value="!main" type="s" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+
+	<o type="image" id="app2">
+		<p name="src" value="" type="s" />
+		<p name="resid" value="!main" type="s" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+
+	<o type="image" id="bmp1">
+		<p name="src" value="controls.dll" type="s" />
+		<p name="resid" value="209" type="n" />
+		<p name="type" value="bmp" type="s" />
+		<p name="w" value="56" type="n" />
+		<p name="h" value="18" type="n" />
+	</o>
+
+	<o type="image" id="bg1">
+		<p name="src" value="controls.dll" type="s" />
+		<p name="resid" value="238" type="n" />
+		<p name="type" value="bmp" type="s" />
+	</o>
+
+	<o type="image" id="ie">
+		<p name="resid" value="ie.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="check_checked">
+		<p name="resid" value="checked.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="check_checked2">
+		<p name="resid" value="checked.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="check_unchecked">
+		<p name="resid" value="unchecked.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+
+	<o type="image" id="radio_checked">
+		<p name="resid" value="radio_checked.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="radio_unchecked">
+		<p name="resid" value="radio_unchecked.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+
+	<o type="image" id="exit">
+		<p name="resid" value="exit.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="copy">
+		<p name="resid" value="copy.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="cut">
+		<p name="resid" value="cut.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="paste">
+		<p name="resid" value="paste.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="selectall">
+		<p name="resid" value="selectall.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="print">
+		<p name="resid" value="print.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="save">
+		<p name="resid" value="save.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="histdel">
+		<p name="resid" value="histdel.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="bmkdel">
+		<p name="resid" value="bmkdel.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="bmkadd">
+		<p name="resid" value="bmkadd.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="search">
+		<p name="resid" value="search.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="searcha">
+		<p name="resid" value="searcha.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="artdel">
+		<p name="resid" value="artdel.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="artadd">
+		<p name="resid" value="artadd.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="artedit">
+		<p name="resid" value="artedit.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="comments">
+		<p name="resid" value="comments.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="contents">
+		<p name="resid" value="contents.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="examp">
+		<p name="resid" value="examp.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="fontdown">
+		<p name="resid" value="fontdown.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="fontup">
+		<p name="resid" value="fontup.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="hilight">
+		<p name="resid" value="hilight.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="history">
+		<p name="resid" value="history.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="phon">
+		<p name="resid" value="phon.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="results">
+		<p name="resid" value="results.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="stress">
+		<p name="resid" value="stress.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="tb">
+		<p name="resid" value="tb.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+
+	<o type="image" id="EN">
+		<p name="resid" value="en-ru.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="DE">
+		<p name="resid" value="de-ru.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="FR">
+		<p name="resid" value="fr-ru.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="IT">
+		<p name="resid" value="it-ru.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="NL">
+		<p name="resid" value="NL-RU.ICO" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="PT">
+		<p name="resid" value="PT-RU.ICO" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="SP">
+		<p name="resid" value="sp-ru.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="EN-RU">
+		<p name="resid" value="en-ru.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="DE-RU">
+		<p name="resid" value="de-ru.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="NL-RU">
+		<p name="resid" value="NL-RU.ICO" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="FR-RU">
+		<p name="resid" value="fr-ru.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="IT-RU">
+		<p name="resid" value="it-ru.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="SP-RU">
+		<p name="resid" value="sp-ru.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="RU-EN">
+		<p name="resid" value="ru-en.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="RU-DE">
+		<p name="resid" value="ru-de.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="RU-FR">
+		<p name="resid" value="ru-fr.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="RU-IT">
+		<p name="resid" value="ru-it.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="RU-NL">
+		<p name="resid" value="RU-NL.ICO" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="RU-SP">
+		<p name="resid" value="ru-sp.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+
+	<o type="image" id="dict">
+		<p name="resid" value="dict\gen.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="userdict">
+		<p name="resid" value="userdict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+
+	<o type="image" id="paradigm">
+		<p name="resid" value="paradigm.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="settings">
+		<p name="resid" value="settings.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="speech">
+		<p name="resid" value="speech.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+
+	<o type="image" id="helpcont">
+		<p name="resid" value="helpcont.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="helpdict">
+		<p name="resid" value="helpdict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="helpphon">
+		<p name="resid" value="helpphon.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="helpirr">
+		<p name="resid" value="helpirr.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="helpabbr">
+		<p name="resid" value="helpabbr.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+
+	<o type="image" id="next">
+		<p name="resid" value="next.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="prev">
+		<p name="resid" value="prev.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="back">
+		<p name="resid" value="back.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="fwd">
+		<p name="resid" value="fwd.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="first">
+		<p name="resid" value="first.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="last">
+		<p name="resid" value="last.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="pageup">
+		<p name="resid" value="pageup.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="pagedown">
+		<p name="resid" value="pagedown.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+
+	<o type="image" id="ok">
+		<p name="resid" value="ok.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="cancel">
+		<p name="resid" value="cancel.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="yes">
+		<p name="resid" value="yes.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="no">
+		<p name="resid" value="no.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="apply">
+		<p name="resid" value="apply.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="help">
+		<p name="resid" value="help.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+
+	<o type="image" id="swaplang">
+		<p name="resid" value="swaplang.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	
+	<o type="image" id="topmost">
+		<p name="resid" value="topmost.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+
+	<o type="image" id="error">
+		<p name="resid" value="error.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="32" type="n" />
+		<p name="h" value="32" type="n" />
+	</o>
+	<o type="image" id="warn">
+		<p name="resid" value="warn.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="32" type="n" />
+		<p name="h" value="32" type="n" />
+	</o>
+	<o type="image" id="info">
+		<p name="resid" value="info.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="32" type="n" />
+		<p name="h" value="32" type="n" />
+	</o>
+	<o type="image" id="quest">
+		<p name="resid" value="quest.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="32" type="n" />
+		<p name="h" value="32" type="n" />
+	</o>
+
+	<o type="image" id="frm_border1">
+		<p name="resid" value="skin_frame.bmp" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="bmp" type="s" />
+	</o>
+	<o type="image" id="frm_margin1">
+		<p name="resid" value="skin_margin.bmp" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="bmp" type="s" />
+	</o>
+	<o type="image" id="frm_client1">
+		<p name="resid" value="skin_client.bmp" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="bmp" type="s" />
+	</o>
+	<o type="image" id="frm_title1">
+		<p name="resid" value="skin_caption.bmp" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="bmp" type="s" />
+	</o>
+	<o type="image" id="frm_buttons1">
+		<p name="resid" value="skin_buttons.bmp" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="bmp" type="s" />
+	</o>
+
+	<o type="image" id="skin_bg">
+		<p name="resid" value="skin_bg.bmp" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="bmp" type="s" />
+	</o>
+	<o type="image" id="skin_bg2">
+		<p name="resid" value="skin_bg2.bmp" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="bmp" type="s" />
+	</o>
+
+	<o type="image" id="frm_border2">
+		<p name="resid" value="border2.bmp" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="bmp" type="s" />
+	</o>
+	<o type="image" id="frm_client2">
+		<p name="resid" value="client2.bmp" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="bmp" type="s" />
+	</o>
+	<o type="image" id="frm_title2">
+		<p name="resid" value="caption2.bmp" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="bmp" type="s" />
+	</o>
+	<o type="image" id="frm_buttons2">
+		<p name="resid" value="buttons2.bmp" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="bmp" type="s" />
+	</o>
+
+	<o type="image" id="ENRUgen">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="ENENwebd">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="ENENwebt">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+
+	<o type="image" id="mtDRLall">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="mtERLall">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="mtFRLall">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="mtGRLall">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="mtIRLall">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="mtRDLall">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="mtRELall">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="mtRFLall">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="mtRGLall">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="mtRILall">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="mtRSLall">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="mtSRLall">
+		<p name="resid" value="dict.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+
+	<o type="image" id="gen">
+		<p name="resid" value="dict\gen.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="gen2">
+		<p name="resid" value="dict\gen.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="gen3">
+		<p name="resid" value="dict\gen.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="brif">
+		<p name="resid" value="dict\gen.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="ecn">
+		<p name="resid" value="dict\ecn.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="med">
+		<p name="resid" value="dict\med.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="tech">
+		<p name="resid" value="dict\tech.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="bank">
+		<p name="resid" value="dict\bank.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="bio">
+		<p name="resid" value="dict\bio.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="bld">
+		<p name="resid" value="dict\bld.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="comp">
+		<p name="resid" value="dict\comp.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="jur">
+		<p name="resid" value="dict\jur.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="soc">
+		<p name="resid" value="dict\soc.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="sun">
+		<p name="resid" value="dict\sun.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="oil">
+		<p name="resid" value="dict\oil.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="phys">
+		<p name="resid" value="dict\phys.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="abbr">
+		<p name="resid" value="dict\abbr.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="usa">
+		<p name="resid" value="dict\cntr.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="aus">
+		<p name="resid" value="dict\cntr.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="brit">
+		<p name="resid" value="dict\cntr.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="lex">
+		<p name="resid" value="dict\lex.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+	<o type="image" id="tele">
+		<p name="resid" value="dict\tele.ico" type="s" />
+		<p name="src" value="images.dll" type="path" />
+		<p name="type" value="ico" type="s" />
+		<p name="w" value="16" type="n" />
+		<p name="h" value="16" type="n" />
+	</o>
+</root>
